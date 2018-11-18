@@ -1,0 +1,62 @@
+.top{
+	height: 40px;
+	background: #333333;
+}
+.top .nav{
+	float: left;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+.top .nav .nav-item{
+	float: left;
+	text-align: center;
+	line-height: 40px;
+}
+.nav .sep{
+	margin:0 7px;
+	color: #b0b0b0;
+}
+.top .nav .nav-item a:hover{
+	color: #fff;
+}
+.cart{
+	width: 120px;
+	height: 40px;
+	float: right;
+	background: red;
+}
+.inf{
+	width: 176px;
+	height: 40px;
+	float: right;
+	background: blue;
+}
+
+
+
+
+
+
+
+
+.header{
+	height: 55px;
+	background: pink;
+}
+.home{
+	height:1272px;
+	background: gray;
+}
+.main{
+	height: 2058px;
+	background: yellow;
+}
+.footer{
+	height: 275px;
+	background: gray;
+}
+.end{
+	height: 150px;
+	background: yellow;
+}
