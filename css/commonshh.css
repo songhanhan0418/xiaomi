@@ -19,3 +19,131 @@ a{
 .clearfix{
 	*zoom:1;
 }
+ h2{
+	float: left;
+	text-align: center;
+	line-height: 60px;
+}
+.double{
+	float: right;
+	width: 70px;
+	height: 24px;
+	text-align: center;
+	line-height: 24px;
+	margin-top: 33px;
+}
+.double-left{
+	float: left;
+	width: 35px;
+	height: 24px;
+	border:1px solid #e0e0e0;
+	box-sizing: border-box;
+}
+.double-right{
+	float: right;
+	width: 35px;
+	height: 24px;
+	border:1px solid #e0e0e0;
+	box-sizing: border-box;
+	border-left: none;
+}
+.more-link{
+	float: right;
+	width: 90px;
+	height: 24px;
+	text-align: center;
+	line-height: 24px;
+	margin-top: 33px;
+}
+.more-link a{
+	font-size: 15px;
+}
+.more-link i{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: #e0e0e0;
+	border-radius: 50%;
+	line-height: 20px;
+	text-align: center;
+}
+
+
+.ad-item{
+	position: relative;
+	float: left;
+	width: 234px;
+	height: 340px;
+	background: white;
+	text-align: center;
+	margin-left: 14px;
+	box-sizing: border-box;
+	border-top: 1px solid #ff6700;
+}
+
+.ad-item:nth-child(1){
+	margin-left: 0;
+}
+.ad-item:nth-child(5){
+	margin-left: 0;
+}
+.ad-item img{
+	width: 120px;
+	height: 150px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.ad-item .item-name{
+	font-size: 14px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.ad-item .item-desc{
+	font-size: 12px;
+	color:#adb0b5;
+	margin-bottom: 17px;
+}
+
+.ad-item .item-pr-now{
+	color:#ff6700;
+}
+.ad-item .item-pr-old{
+	color:#adb0b5;
+}
+.ad-item .item-black{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 234px;
+	height: 340px;
+	background: rgba(255,255,255,0.2);
+	cursor: pointer;
+}
+.ad-item-m{
+	height: 300px;
+	margin-left: 14px;
+}
+.ad-item-m img{
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+.ad-item-m .item-name{
+	margin-bottom: 8px;
+}
+.ad-item-m .item-desc{
+	margin-bottom: 5px;
+}
+.ad-item-m .item-black{
+	height: 300px;
+}
+.ad-item-m{
+	margin-bottom: 14px;
+}
+.ad-item-m:hover{
+	transform: translateY(-2px);
+	box-shadow: 0 2px 5px;
+}
