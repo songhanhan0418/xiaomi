@@ -1,0 +1,56 @@
+.clearfix:after{
+	content: "";
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+.clearfix{
+	*zoom:1;
+}
+.top-nav{
+	height: 40px;
+	background: #333333;
+}
+.top-nav .mav-cen{
+	margin: 0 auto;
+	width: 1226px;	
+}
+.top-nav .left-nav{
+	height: 40px;
+}
+.top-nav .left-nav .left-nav-item{
+	color: #b0b0b0;
+	float: left;
+	font-size: 14px;
+	list-style: none;
+}
+.top-nav .left-nav .left-nav-item a{
+	color: #b0b0b0;
+	line-height: 40px;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 0 6px;
+}
+.top-nav .left-nav .left-nav-item a:hover{
+	color: #fff;
+}
+.top-nav .right-inf{
+	height: 40px;
+}
+.top-nav .right-inf .right-inf-item{
+	float: right;
+	font-size: 14px;
+	color: #b0b0b0;
+	list-style: none;
+}
+.top-nav .right-inf .right-inf-item a{
+	color: #b0b0b0;
+	line-height: 40px;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 0 6px;	
+}
+.top-nav .right-inf .right-inf-item a:hover{
+	color: #fff;	
+}
