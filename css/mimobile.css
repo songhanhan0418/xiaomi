@@ -1,0 +1,85 @@
+/*通用部分*/
+	.container{
+		position: relative;
+		width: 1226px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #b0b0b0;
+	}
+	.clearfix:after{
+		display: block;
+		content:'';
+		clear: both;
+		height: 0;
+		visibility: hidden;
+	}
+	.clearfix{
+		*zoom:1;
+	}
+/*通用部分结束*/
+/*头部导航*/
+	.top{
+	height: 40px;
+	background: #333333;
+	}
+	/*左部导航*/
+		.top .nav{
+			float: left;
+			height: 40px;
+			text-align: center;
+			line-height: 40px;
+		}
+		.top .nav .nav-item{
+			float: left;
+			text-align: center;
+			line-height: 40px;
+		}
+		.nav .sep{
+			margin:0 5px;
+			color: #42423b;
+		}
+		.top .nav .nav-item a:hover{
+			color: #fff;
+		}
+	/*左部导航结束*/
+	/*购物车*/
+		.cart{
+			width: 120px;
+			height: 40px;
+			float: right;
+			text-align: center;
+			line-height: 40px;
+			background: #424242;
+			cursor: pointer;
+		}
+		.cart-a i{
+			font-size: 18px;
+		}
+		.cart:hover{
+			background: #fff;
+		}
+		.cart:hover .cart-a{
+			color: #ff6700;
+		}
+	/*购物车结束*/
+	/*登陆*/
+		.inf{
+			width: 176px;
+			height: 40px;
+			float: right;
+			text-align: center;
+			line-height: 40px;
+		}
+		.inf-a-span{
+			margin-left: 5px;
+			color:#42423b;
+		}
+		.top .inf a:hover{
+			color: #fff;
+		}
+	/*登陆结束*/
+/*头部导航结束*/
