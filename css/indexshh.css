@@ -310,6 +310,12 @@
 	margin-top: 20px;
 	color: #cfcdcb;
 }
+.home .box .box-ul-li a:hover{
+	color: #fff;
+}
+.home .box .box-ul-li a:hover i{
+	color:#fff;
+}
 .home .box .box-ul-span{
 	position: absolute;
 	top: 5px;
@@ -435,6 +441,9 @@
 	background: #f5f5f5;
 	margin-bottom: 33px;
 }
+.main .container{
+	height: 2050px;
+}
 .main .phone{
 	height: 840px;
 }
@@ -442,11 +451,10 @@
 .main .main-head{
 	height: 60px;
 }
-.main .main-ad-left{
+.main-ad-left{
 	float: left;
 	width: 234px;
 	height: 614px;
-	border-top: 1px solid #ff6700;
 	box-sizing: border-box;
 }
 .main .main-ad-left img{
@@ -510,6 +518,9 @@
 	color: #333333;
 	margin-top: 32px;
 }
+.video-item .video-name:hover{
+	color: #ff6700;
+}
 .video-item .video-desc{
 	font-size: 12px;
 	color: #b0b0b0;
@@ -535,6 +546,10 @@
 	box-shadow:  0 2px 5px;
 }
 .video-item img:hover ~ .video-play{
+	background: #ff6700;
+	border-color: #ff6700;
+}
+.video-item .video-play:hover{
 	background: #ff6700;
 	border-color: #ff6700;
 }
@@ -573,7 +588,6 @@
 	vertical-align: -3px;
 }
 .end .container{
-	background: #eee;
 	height: 300px;
 	position: relative;
 }
