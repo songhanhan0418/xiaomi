@@ -1,0 +1,103 @@
+/*清除浮动*/
+.clearfix:after{
+	content: "";
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+.clearfix{
+	*zoom:1;
+}
+
+
+/*共通样式*/
+.top-nav{
+	height: 40px;
+	background: #333333;
+}
+.top-nav .mav-cen{
+	margin: 0 auto;
+	width: 1226px;	
+}
+.top-nav ul li a{
+	color: #b0b0b0;
+	line-height: 40px;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 0 6px;	
+}
+.top-nav ul li a:hover{
+	color: #fff;	
+}
+
+
+/*顶部导航样式*/
+.top-nav .left-nav{
+	float: left;
+	height: 40px;
+}
+.top-nav .left-nav .left-nav-item{
+	color: #b0b0b0;
+	float: left;
+	font-size: 14px;
+	list-style: none;
+}
+.top-nav .right-inf{
+	float: right;
+	height: 40px;
+}
+.top-nav .right-inf .right-inf-item{
+	float: right;
+	font-size: 14px;
+	color: #b0b0b0;
+	list-style: none;
+}
+
+
+/*头部hd部分样式*/
+.hd{
+	width: 1226px;
+	height: 100px;
+	padding: 24px 0;
+	margin:0 auto;
+}
+.hd .logo{
+	display: inline-block;
+	width: 200px;
+}
+.hd .logo a{
+	color: #000;
+	float:left;	
+	text-decoration: none;
+}
+.hd .logo a img{
+	float: left;
+	margin-right: 10px;
+	width: 52px;
+}
+.hd .logo a .logo-dot{
+	float: left;
+	letter-spacing: 5px;
+	font-size: 28px;
+}
+.hd .logo a .logo-rig{
+	float: left;
+	letter-spacing: 1px;
+	font-size: 11px;
+	color: #a7a7a7;
+}
+.hd .hd-nav{
+	display: inline-block;
+	float: right;
+}
+.hd .hd-nav .hd-nav-item{
+	float: left;
+	list-style: none;
+}
+.hd .hd-nav .hd-nav-item a{
+	margin-left: 45px;
+	line-height: 52px;
+	text-decoration: none;
+	color: #000;
+}
