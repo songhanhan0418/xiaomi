@@ -28,7 +28,6 @@
 }
 
 
-
 .aa{
 	height: 88px;
 }
@@ -82,8 +81,8 @@
 			}
 			to{
 				margin-left: -4149px;
-			}*/
-
+			}
+*/
 .bb .bb-wu{
 	position: absolute;
 	left: 46%;
@@ -102,8 +101,6 @@
 	background: #fff;
 	cursor: pointer;
 }
-
-
 
 .cc{
 	height: 623px;
@@ -162,7 +159,6 @@
 	color: #fff;
 }
 
-
 .dd{
 	margin-top: -52px;
 	height: 572px;
@@ -204,10 +200,6 @@
     width: 413px;
 }
 
-
-
-
-
 .ee{
 	height: 573px;
 }
@@ -226,9 +218,6 @@
 .ee .ee-pp{
 	margin-left: 168px;
 }
-
-
-
 
 .ff{
 	height: 580px;
@@ -249,10 +238,6 @@
 .ff p a:hover{
 	color: #ff6700;
 }
-
-
-
-
 
 .gg{
 	height: 221px;
@@ -284,71 +269,43 @@
 	color: #ff6700;
 }
 
-
-
-
 .hh{
-	height: 452px;
+	height: 400px;
 	background: #35373f;
 }
-.hh .hh-oo{
-	height: 20px;
-}
-.hh .hh-oo .hh-bb li{
+.hh .links-itme{
 	float: left;
-	margin-top: 50px;
+	margin-left: 168px;
+}
+.hh .links-itme dt{
+	margin-top: 30px;
+	margin-bottom: 20px;
 	color: #fff;
+	font-size: 15px;
 }
-.hh .hh-oo .hh-bb li:nth-child(1){
-	margin-left: 160px;
+.hh .links-itme:first-child{
+	margin-right: 110px;
 }
-.hh .hh-oo .hh-bb li:nth-child(2){
-	margin-left: 300px;
+.hh .links-itme:nth-child(2){
+	margin-right: 120px;
 }
-.hh .hh-oo .hh-bb li:nth-child(3){
-	margin-left: 323px;
+.hh .links-itme:nth-child(3){
+	margin-right: 150px;
 }
-.hh .hh-oo .hh-bb li:nth-child(4){
-	margin-left: 400px;
+.hh .links-itme dd a{
+	color: #8e8e8e;
+	font-size: 13px;
 }
-
-
-
-
-
-
-/*<ul class="hh-bb-oo">
-				<li class="oo">
-						产品
-					<ul class="hh-bb-dd">
-						<li>定制手机</li>
-						<li>智能建筑</li>
-						<li>物联网通信</li>
-					</ul>
-				</li>
-				<li class="oo">
-						友情链接
-					<ul class="hh-bb-dd">
-						<li>小米IoT开发者平台</li>
-						<li>小米开放平台</li>
-						<li>小米水滴平台</li>
-						<li>小米生态云</li>
-						<li>小米商城</li>
-						<li>小米开放云</li>
-					</ul>
-				</li>
-				<li class="oo">
-						联系方式
-					<ul class="hh-bb-dd">
-						<li>邮箱</li>
-						<li>zhengqidingzhi@xiaomi.com</li>
-					</ul>
-				</li>
-				<li class="oo">
-						关注我们
-					<ul class="hh-bb-dd">
-						<li>新浪微博</li>
-						<li>微信公众号</li>
-					</ul>
-				</li>
-			</ul>*/
+.hh .hh-tt{
+	text-align: center;
+	margin-top: 56px;
+}
+.hh .hh-tt .hh-rr{
+	color: #8e8e8e;
+	font-size: 13px;
+	margin-bottom: 44px;
+}
+.hh .hh-tt .hh-ii{
+	color: #8e8e8e;
+	font-size: 13px;
+}
