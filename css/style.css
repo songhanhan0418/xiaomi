@@ -61,6 +61,7 @@
 	height: 100px;
 	padding: 24px 0;
 	margin:0 auto;
+	box-sizing: border-box;
 }
 .hd .logo{
 	display: inline-block;
@@ -100,4 +101,85 @@
 	line-height: 52px;
 	text-decoration: none;
 	color: #000;
+}
+
+
+/*section-bd部分样式*/
+.bd{
+	height: 1000px;
+	border:1px #000 solid;
+	background: url(../img/jr-bg.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.bd a{
+	text-decoration: none;
+}
+.bd .neirong{
+	position: relative;
+	margin:0 auto;
+	width: 1226px;
+}
+.bd .neirong .cent{
+	width: 500px;
+	padding-top: 200px;
+	margin: 0 auto;
+}
+.bd .neirong .cent .desc{
+	color: #fff;
+	font-size: 50px;
+	letter-spacing: 2px;
+}
+.bd .neirong .cent a .app{
+	margin: 0 auto;
+	margin-top:35px;
+	width: 260px;
+	height: 60px;
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+	line-height: 60px;
+	background: #ff6700;
+	border-radius: 5px;
+}
+.bd .neirong .three{
+	width: 1200px;
+	height: 450px;
+	margin: 0 auto;
+	padding: 30px;
+	box-sizing: border-box;
+	background: #fff;
+	border-bottom: 1px #e6e6e6 solid;
+}
+.bd .neirong .three .bd-item{
+	float: left;
+	margin-left: 30px;
+}
+.bd .neirong .three .bd-item:first-child{
+	margin-left: 0pc;
+}
+.bd .neirong .three .bd-item .box{
+	margin:0 auto;
+	width: 300px;
+	font-size: 14px;
+	border-bottom: 1px #e6e6e6 solid;
+}
+.three .bd-item .box p{
+	display: inline-block;
+	margin:8px;
+}
+.three .bd-item .box .title1{
+	color: #ea5600;
+}
+.three .bd-item .box .title2{
+	color: #4481c8;
+}
+.three .bd-item .box .title3{
+	color: #4db793;
+}
+.three .bd-item .box .description,span{
+	color:#666666;
+}
+.bd .neirong .three>a{
+	color: #ff6700;
 }
