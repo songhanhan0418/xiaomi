@@ -1,7 +1,5 @@
 .container{
 	width: 1583px;
-	margin-left: auto;
-	margin-right: auto;
 }
 .clearfix:after{
 	display: block;
@@ -15,4 +13,7 @@
 }
 a{
 	text-decoration: none;
+}
+li{
+	list-style: none;
 }
