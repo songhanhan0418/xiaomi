@@ -20,6 +20,33 @@
 	.clearfix{
 		*zoom:1;
 	}
+	.btn{
+		display: inline-block;
+		width: 120px;
+		height: 30px;
+		line-height: 30px;
+		background: #ff6700;
+		text-align:center;
+		color: #fff;
+	}
+	.btn-b{
+		width: 300px;
+		height: 50px;
+		font-size: 16px;
+		line-height: 50px;
+		margin-top: 50px;
+		margin-bottom: 15px;
+	}
+	.btn-m{
+		width: 136px;
+		height: 50px;
+		font-size: 16px;
+		line-height: 50px;
+		border: 1px solid #ff6700;
+		background: #000;
+		color: #ff6700;
+		margin-right: 19px;
+	}
 /*通用部分结束*/
 /*顶部导航栏*/
 	.top{
@@ -301,7 +328,7 @@
 				color:#efeef0;
 				font-size: 15px;
 			}
-			.title .title-nav .title-nav-box{
+			.title .title-nav .btn{
 				float: right;
 				margin-top: 10px;
 				display: inline-block;
@@ -314,4 +341,67 @@
 			}
 		/*电话卡标题右部分结束*/
 	/*电话卡标题结束*/
+	/*移动电话卡*/
+		.head{
+			width: 1583px;
+			height: 500px;
+			background: url(../images/dianhuaka.png);
+			overflow: hidden;
+		}
+		.head .container{
+			width:400px;
+			height: 350px;
+			margin:85px 0 0 975px;
+		}
+		.sub{
+			width: 100px;
+			height: 30px;
+			line-height: 30px;
+			color: #fff;
+			font-size: 16px;
+			text-align: center;
+			border: 1px solid #fff;
+			margin-bottom: 20px;
+		}
+		.head-title{
+			margin-bottom: 44px;
+			color: #fff;
+			font-size: 40px;
+		}
+		.head .head-p{
+			font-size: 20px;
+			margin-bottom: 12px;
+			color: #fff;
+		}
+		/*蓝色广告*/
+			.ad-blue img{
+				width: 100%;
+				height: 250px;
+				margin-top:20px;
+				margin-bottom: 60px;
+			}
+		/*蓝色广告结束*/
+		/*广告文字*/
+			.ad-text{
+				font-size: 52px;
+				text-align: center;
+				margin-bottom: 50px;
+			}
+			.ad-text-desc{
+				text-align: center;
+			}
+		/*广告文字*/
+		/*表格*/
+		table{
+			width: 1225px;
+			height: 459px;
+			/*border-collapse: collapse;*/
+			border-color: gray;
+			color: #757575;
+			border-spacing: 0;
+		}
+
+
+		/*表格结束*/
+	/*移动电话卡结束*/
 /* 内容结束*/
