@@ -9,7 +9,7 @@
 	text-decoration: none;
 	font-size: 12px;
 	color: #b0b0b0;
-	}
+	} 
 	.clearfix:after{
 		display: block;
 		content:'';
@@ -90,16 +90,32 @@
 	}
 	/*顶部logo*/
 		.header .logo{
+			position: relative;
 			float: left;
 			width: 55px;
 			height: 55px;
 			background: #ff6700; 
-			padding-top: 3px;
 			box-sizing: border-box;
 		}
 		.header .logo img{
+			position: absolute;
+			left: 0;
+			top: 0;
 			width: 55px;
 			height: 55px;
+			transition: all .5s;
+		}
+		.header .logo .logo-home{
+			transform: translateX(-60px);
+			
+			/*transform: translateX(-60px);*/
+		}
+		.logo:hover .logo-logo{
+			
+			transform: translateX(60px);
+		}
+		.logo:hover .logo-home{
+			transform: translateX(0px);
 		}
 	/*顶部logo结束*/
 	/*商品链接*/
@@ -232,5 +248,70 @@
 			display: inline-block;
 			border-top: none;
 		}
-	/*搜索框结束*/
-/*商品分类导航结束*/
+	/* 搜索框结束*/
+/* 商品分类导航结束*/
+/* 内容*/
+	/*电话卡标题*/
+		.title{
+			height: 50px;
+			background: red;
+			margin-top: 40px;
+			line-height: 50px;
+		}
+		/*电话卡标题左部分*/
+			.title .title-hd{
+				float: left;
+			}
+			.title .title-hd h2{
+				float: left;
+			}
+			.title .title-hd span{
+				float: left;
+				font-size: 13px;
+				margin:0px 10px;
+				color:#6189b2;
+			}
+			.title .title-hd a{
+				float: left;
+				color:#757575;
+			}
+			.title .title-hd a:hover{
+				color:#ff6700;
+			}
+		/*电话卡标题左部分结束*/
+		/*电话卡标题右部分*/
+			.title .title-nav{
+				float: right;
+			}
+			.title-nav-list{
+				float: right;
+			}
+			.actived{
+				color: #ff6700;
+				cursor: default;
+			}
+			.title .title-nav a{
+				padding:0px 5px;
+				font-size: 13px;
+			}
+			.title .title-nav .title-nav-list a:hover{
+				color: #ff6700;
+			}
+			.title .title-nav span{
+				color:#efeef0;
+				font-size: 15px;
+			}
+			.title .title-nav .title-nav-box{
+				float: right;
+				margin-top: 10px;
+				display: inline-block;
+				width: 120px;
+				height: 30px;
+				line-height: 30px;
+				background: #ff6700;
+				text-align:center;
+				color: #fff;
+			}
+		/*电话卡标题右部分结束*/
+	/*电话卡标题结束*/
+/* 内容结束*/
