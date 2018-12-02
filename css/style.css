@@ -239,6 +239,7 @@
 .ft .footer-right p:nth-child(2){
 	font-size: 20px;
 	color: #ff6700;
+        margin:5px 0;
 }
 .ft .footer-right p:nth-child(3){
 	font-size: 12px;
