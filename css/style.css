@@ -106,10 +106,10 @@
 
 /*section-bd部分样式*/
 .bd{
-	height: 1000px;
-	border:1px #000 solid;
+	height: 1015px;
+        margin-bottom: 90px;
 	background: url(../img/jr-bg.jpg);
-	background-size: contain;
+	background-size: 100% 640px;
 	background-repeat: no-repeat;
 }
 .bd a{
@@ -143,6 +143,8 @@
 	border-radius: 5px;
 }
 .bd .neirong .three{
+	position: absolute;
+	top:560px;
 	width: 1200px;
 	height: 450px;
 	margin: 0 auto;
@@ -160,8 +162,10 @@
 }
 .bd .neirong .three .bd-item .box{
 	margin:0 auto;
+        margin-bottom: 20px;
 	width: 300px;
 	font-size: 14px;
+        padding:25px 0 30px 0;
 	border-bottom: 1px #e6e6e6 solid;
 }
 .three .bd-item .box p{
@@ -180,6 +184,64 @@
 .three .bd-item .box .description,span{
 	color:#666666;
 }
-.bd .neirong .three>a{
+.bd .neirong .three .bd-item .more{
+	margin: 0 105px;
+	color: #fd3911;
+}
+.bd .neirong .three>a .iconfont{
+	margin-left: 5px;
+}
+
+
+
+/*footer部分样式*/
+.ft {
+	width: 1226px;
+    height: 100px;
+    margin: 0 auto;
+}
+.ft .footer-left{
+	float: left;
+	width: 800px;
+	margin-top: 20px;
+}
+.ft .footer-left a{
+	float: left;
+	font-size: 14px;
+	color: #575757;
+}
+.ft .footer-left p{
+	float: left;
+}
+.ft .footer-left .logo{
+	float:left;
+	width: 47px;
+	height: 47px;
+    background: url(../img/jr-logo.jpg);
+    background-size: cover;
+	margin-right: 15px;
+}
+.ft .footer-left span{
+	margin: 0 8px;
+}
+.ft .footer-left>p{
+	font-size: 10px;
+	color: #575757;
+}
+.ft .footer-right{
+	float: right;
+	width: 220px;
+}
+.ft .footer-right p:first-child{
+	font-size: 12px;
+	color:  #575757;
+}
+.ft .footer-right p:nth-child(2){
+	font-size: 20px;
 	color: #ff6700;
+        margin:5px 0;
+}
+.ft .footer-right p:nth-child(3){
+	font-size: 12px;
+	color:  #575757;	
 }

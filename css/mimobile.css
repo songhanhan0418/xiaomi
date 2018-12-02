@@ -9,7 +9,7 @@
 	text-decoration: none;
 	font-size: 12px;
 	color: #b0b0b0;
-	}
+	} 
 	.clearfix:after{
 		display: block;
 		content:'';
@@ -19,6 +19,33 @@
 	}
 	.clearfix{
 		*zoom:1;
+	}
+	.btn{
+		display: inline-block;
+		width: 120px;
+		height: 30px;
+		line-height: 30px;
+		background: #ff6700;
+		text-align:center;
+		color: #fff;
+	}
+	.btn-b{
+		width: 300px;
+		height: 50px;
+		font-size: 16px;
+		line-height: 50px;
+		margin-top: 50px;
+		margin-bottom: 15px;
+	}
+	.btn-m{
+		width: 136px;
+		height: 50px;
+		font-size: 16px;
+		line-height: 50px;
+		border: 1px solid #ff6700;
+		background: #000;
+		color: #ff6700;
+		margin-right: 19px;
 	}
 /*通用部分结束*/
 /*顶部导航栏*/
@@ -90,16 +117,32 @@
 	}
 	/*顶部logo*/
 		.header .logo{
+			position: relative;
 			float: left;
 			width: 55px;
 			height: 55px;
 			background: #ff6700; 
-			padding-top: 3px;
 			box-sizing: border-box;
 		}
 		.header .logo img{
+			position: absolute;
+			left: 0;
+			top: 0;
 			width: 55px;
 			height: 55px;
+			transition: all .5s;
+		}
+		.header .logo .logo-home{
+			transform: translateX(-60px);
+			
+			/*transform: translateX(-60px);*/
+		}
+		.logo:hover .logo-logo{
+			
+			transform: translateX(60px);
+		}
+		.logo:hover .logo-home{
+			transform: translateX(0px);
 		}
 	/*顶部logo结束*/
 	/*商品链接*/
@@ -232,5 +275,133 @@
 			display: inline-block;
 			border-top: none;
 		}
-	/*搜索框结束*/
-/*商品分类导航结束*/
+	/* 搜索框结束*/
+/* 商品分类导航结束*/
+/* 内容*/
+	/*电话卡标题*/
+		.title{
+			height: 50px;
+			background: red;
+			margin-top: 40px;
+			line-height: 50px;
+		}
+		/*电话卡标题左部分*/
+			.title .title-hd{
+				float: left;
+			}
+			.title .title-hd h2{
+				float: left;
+			}
+			.title .title-hd span{
+				float: left;
+				font-size: 13px;
+				margin:0px 10px;
+				color:#6189b2;
+			}
+			.title .title-hd a{
+				float: left;
+				color:#757575;
+			}
+			.title .title-hd a:hover{
+				color:#ff6700;
+			}
+		/*电话卡标题左部分结束*/
+		/*电话卡标题右部分*/
+			.title .title-nav{
+				float: right;
+			}
+			.title-nav-list{
+				float: right;
+			}
+			.actived{
+				color: #ff6700;
+				cursor: default;
+			}
+			.title .title-nav a{
+				padding:0px 5px;
+				font-size: 13px;
+			}
+			.title .title-nav .title-nav-list a:hover{
+				color: #ff6700;
+			}
+			.title .title-nav span{
+				color:#efeef0;
+				font-size: 15px;
+			}
+			.title .title-nav .btn{
+				float: right;
+				margin-top: 10px;
+				display: inline-block;
+				width: 120px;
+				height: 30px;
+				line-height: 30px;
+				background: #ff6700;
+				text-align:center;
+				color: #fff;
+			}
+		/*电话卡标题右部分结束*/
+	/*电话卡标题结束*/
+	/*移动电话卡*/
+		.head{
+			width: 1583px;
+			height: 500px;
+			background: url(../images/dianhuaka.png);
+			overflow: hidden;
+		}
+		.head .container{
+			width:400px;
+			height: 350px;
+			margin:85px 0 0 975px;
+		}
+		.sub{
+			width: 100px;
+			height: 30px;
+			line-height: 30px;
+			color: #fff;
+			font-size: 16px;
+			text-align: center;
+			border: 1px solid #fff;
+			margin-bottom: 20px;
+		}
+		.head-title{
+			margin-bottom: 44px;
+			color: #fff;
+			font-size: 40px;
+		}
+		.head .head-p{
+			font-size: 20px;
+			margin-bottom: 12px;
+			color: #fff;
+		}
+		/*蓝色广告*/
+			.ad-blue img{
+				width: 100%;
+				height: 250px;
+				margin-top:20px;
+				margin-bottom: 60px;
+			}
+		/*蓝色广告结束*/
+		/*广告文字*/
+			.ad-text{
+				font-size: 52px;
+				text-align: center;
+				margin-bottom: 50px;
+			}
+			.ad-text-desc{
+				text-align: center;
+			}
+		/*广告文字*/
+		/*表格*/
+		table{
+			width: 1225px;
+			height: 459px;
+			/*border-collapse: collapse;*/
+			border-color: gray;
+			color: #757575;
+			border-spacing: 0;
+		}
+
+
+		/*表格结束*/
+	/*移动电话卡结束*/
+/* 内容结束*/
