@@ -14,7 +14,7 @@ a{
 }
 /*hd部分样式*/
 .hd{
-	height: 538px;
+	height: 540px;
 	background:#242424;
 }
 .hd .nav-top{
@@ -97,5 +97,81 @@ a{
 .hd .img a:hover{
 	background: #0087ff;
 	color: #fff;
+}
+
+
+
+.main .one{
+	width: 1360px;
+	margin: 0 auto;
+	height: 580px;
+        background: #fff;
+        overflow: hidden;
+        box-sizing: border-box;
+}
+.main .one>p{
+        text-align: center;
+        font-weight: 400;
+}
+.main .one>p:first-child{    
+	margin-top: 80px;
+        font-size: 31px;
+}
+.main .one>p:last-child{  
+	margin-top: 38px;
+	font-size: 20px;
+}
+.main .one>.img{
+	float: left;
+        margin-right: 32px;
+        margin-top: 80px;
+}
+.main .one>.img:last-child{
+	margin-right: 0;
+}
+.main .one>.img p{
+	width: 316px;    
+}
+.main .one>.img p:nth-child(2){
+	margin-top: 36px;
+	font-size: 16px;
+}
+.main .one>.img p:last-child{
+	margin-top: 24px;
+        font-size: 14px;
+        color: #8b8b8b;
+}
+
+
+.main .two{
+	background: #f6f6f6;
+        width: 100%;
+}
+.main .two .cent{
+	width: 1360px;
+        margin: 0 auto;
+        overflow: hidden;
+}
+.main .two .cent>p{
+	text-align: center;
+}
+.main .two .cent>p:first-child{
+	margin-top: 78px;
+	font-size:32px;
+}
+.main .two .cent>p:nth-child(2){
+	font-size: 20px;
+	margin-top: 40px;
+        margin-bottom: 80px;
+}
+.main .two .cent .fou{
+	float: left;
+	width: 662px;
+}.main .two .cent .left{
+	margin-right: 32px;
+}
+.main .two .cent .fou p{
+	text-align: center;
+	margin: 26px 0 43px;
 }
 
