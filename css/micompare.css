@@ -20,6 +20,18 @@
 	.clearfix{
 		*zoom:1;
 	}
+	.btn{
+			display: block;
+			width: 170px;
+			height: 40px;
+			margin-left: auto;
+			margin-right: auto;
+			background: #ff6700;
+			margin-top: 50px;
+			font-size: 16px;
+			color: #fff;
+			line-height: 40px;
+		}
 /*通用部分结束*/
 /*头部导航*/
 	.top{
@@ -90,16 +102,32 @@
 	}
 	/*顶部logo*/
 		.header .logo{
+			position: relative;
 			float: left;
 			width: 55px;
 			height: 55px;
 			background: #ff6700; 
-			padding-top: 3px;
 			box-sizing: border-box;
 		}
 		.header .logo img{
+			position: absolute;
+			left: 0;
+			top: 0;
 			width: 55px;
 			height: 55px;
+			transition: all .5s;
+		}
+		.header .logo .logo-home{
+			transform: translateX(-60px);
+			
+			/*transform: translateX(-60px);*/
+		}
+		.logo:hover .logo-logo{
+			
+			transform: translateX(60px);
+		}
+		.logo:hover .logo-home{
+			transform: translateX(0px);
 		}
 	/*顶部logo结束*/
 	/*商品链接*/
@@ -234,3 +262,166 @@
 		}
 	/*搜索框结束*/
 /*商品分类导航结束*/
+/*内容*/
+	/*首页*/
+		.main{
+			background: #f5f5f5;
+		}
+		.main-home{
+			height: 40px;
+			margin-top: 20px;
+			line-height: 40px;
+			overflow: hidden;
+		}
+		.main-home a{
+			color: #757575;
+		}
+		.main-home span{
+			font-size: 12px;
+			color: #757575;
+		}
+		.main-bg{
+			height: 500px;
+			background: url(../images/compare-bg.png);
+			background-repeat: no-repeat;
+			background-size: 100%;
+			text-align: center;
+		}
+		.main-bg-text{
+			overflow: hidden;
+		}
+		.main-bg-text h1{
+			font-size: 37px;
+			margin-top: 80px;
+			color: #616189;
+		}
+		.main-bg-text .bg-desc{
+			margin-top: 20px;
+			font-size: 18px;
+			line-height: 20px;
+		}
+	/*首页结束*/
+	/* 手机配置*/
+		/* 手机*/
+		.phone{
+			border-bottom: 1px solid #e5e5e5;
+			background: #fff;
+		}
+		.phone li{
+			position: relative;
+			float: left;
+			width: 33.33%;
+			height: 150px;
+			text-align: center;
+			cursor: pointer;
+		}
+		.phone-title{
+			font-size: 30px;
+			margin-top: 50px;
+		}
+		.phone-info{
+			font-size: 14px;
+			margin-top: 10px;
+		}
+		.phone .arrow{
+			width: 32px;
+			height: 32px;
+		}
+		.phone .arrow span{
+			display: block;
+			position: absolute;
+			left: 80%;
+			top: 50%;
+			width: 10px;
+			height: 10px;
+			transform: rotate(-45deg);
+			border-left: 2px solid #ff6700;
+			border-bottom: 2px solid #ff6700;
+		}
+		.color{
+			background: #fff;
+		}
+		.color li{
+			float: left;
+			width: 33.33%;
+			height: 544px;
+			text-align: center;
+		}
+		.color img{
+			width: 350px;
+			height: 350px;
+			margin: 50px 0;
+		}
+		.color .color-chose{
+			margin-left: 140px;
+		}
+		.color dl{
+			float: left;
+		}
+		.active{
+			border: 3px solid #ff6700;
+		}
+		dl dd{
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			cursor: pointer;
+		}
+		.chose-white span{
+			background: #f2f2f2;
+		}
+		dl dt{
+			opacity: 0;
+			transition: all 1s linear;
+		}
+		dl:hover dt{
+			opacity: 1;
+		}
+		.chose-black span{
+			background: #000;
+		}
+		.chose-blue span{
+			background: #4781b4;
+		}
+		.chose-yellow span{
+			background: #ebdbae;
+		}
+		.chose span{
+			display: inline-block;
+			width: 32px;
+			height: 32px;
+			border-radius: 50%;
+			margin-top: 4px;
+		}
+		.chose-other dt{
+			margin-top: 5px;
+		}
+		/* 手机结束*/
+		/* 处理器*/
+		/* 处理器结束*/
+		/* 存储*/
+		/* 存储结束*/
+		/* 显示屏*/
+		/* 显示屏结束*/
+		/* 人脸解锁*/
+		/* 人脸解锁结束*/
+		/* 指纹识别*/
+		/* 指纹识别结束*/
+		/* 机身参数*/
+		/* 机身参数结束*/
+		/* 后置相机*/
+		/* 后置相机结束*/
+		/* 前置相机*/
+		/* 前置相机结束*/
+		/* 通信网络和卡槽*/
+		/* 通信网络和卡槽结束*/
+		/* 无线连接*/
+		/* 无线连接结束*/
+		/* 感应器*/
+		/* 感应器结束*/
+		/* 电池与充电*/
+		/* 电池与充电结束*/
+		/* 手机更多*/
+		/* 手机更多结束*/
+	/* 手机配置结束*/
+/*内容结束*/
