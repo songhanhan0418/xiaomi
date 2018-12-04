@@ -237,10 +237,11 @@
 	color:  #575757;
 }
 .ft .footer-right p:nth-child(2){
-	font-size: 20px;
-	color: #ff6700;
+	font-size: 22px;
+	color: #fd3911;
+	margin: 6px 0;
 }
 .ft .footer-right p:nth-child(3){
-	font-size: 12px;
+	font-size: 11px;
 	color:  #575757;	
 }
