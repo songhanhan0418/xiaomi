@@ -5,6 +5,9 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
+	.bg-fff{
+		background-color: #fff;
+	}
 	a{
 	text-decoration: none;
 	font-size: 12px;
@@ -318,10 +321,12 @@
 		.phone-title{
 			font-size: 30px;
 			margin-top: 50px;
+			color: #636363;
 		}
 		.phone-info{
 			font-size: 14px;
 			margin-top: 10px;
+			color: #636363;
 		}
 		.phone .arrow{
 			width: 32px;
@@ -344,7 +349,6 @@
 		.color li{
 			float: left;
 			width: 33.33%;
-			height: 544px;
 			text-align: center;
 		}
 		.color img{
@@ -361,7 +365,7 @@
 		.active{
 			border: 3px solid #ff6700;
 		}
-		dl dd{
+		dl .color-color{
 			width: 40px;
 			height: 40px;
 			border-radius: 50%;
@@ -370,11 +374,11 @@
 		.chose-white span{
 			background: #f2f2f2;
 		}
-		dl dt{
+		dl .color-icon{
 			opacity: 0;
 			transition: all 1s linear;
 		}
-		dl:hover dt{
+		dl:hover .color-icon{
 			opacity: 1;
 		}
 		.chose-black span{
@@ -397,31 +401,216 @@
 			margin-top: 5px;
 		}
 		/* 手机结束*/
-		/* 处理器*/
-		/* 处理器结束*/
-		/* 存储*/
-		/* 存储结束*/
-		/* 显示屏*/
-		/* 显示屏结束*/
-		/* 人脸解锁*/
-		/* 人脸解锁结束*/
-		/* 指纹识别*/
-		/* 指纹识别结束*/
-		/* 机身参数*/
-		/* 机身参数结束*/
-		/* 后置相机*/
-		/* 后置相机结束*/
-		/* 前置相机*/
-		/* 前置相机结束*/
-		/* 通信网络和卡槽*/
-		/* 通信网络和卡槽结束*/
-		/* 无线连接*/
-		/* 无线连接结束*/
-		/* 感应器*/
-		/* 感应器结束*/
-		/* 电池与充电*/
-		/* 电池与充电结束*/
+		/* 配置详细*/
+		.specs{
+			margin-top: 90px;
+			margin-left: 30px;
+		}
+		.specs-title{
+			height: 71px;
+			font-size: 30px;
+			line-height: 71px;
+			border-bottom: 1px solid #e8e8e8;
+		}
+		.detail{
+			margin-top: 30px;
+			margin-bottom: 45px;
+			font-size: 20px;
+		}
+		.specs-table{
+			width: 100%;
+			margin-bottom: 30px;
+		}
+		.specs-table tr{
+			color: #858585;
+			margin-bottom: 30px;
+		}
+		.detail .specs-table-tr{
+			color: #333;
+		}
+		.specs-table td{
+			width: 33%;
+			height: 48px;
+		}
+		/* 配置详细结束*/
 		/* 手机更多*/
+		.more .more-list{
+			float: left;
+			width: 33%;
+			height: 500px;
+			text-align: center;
+		}
+		.more-list img{
+			width: 350px;
+			height: 350px;
+		}
+		.more-list p{
+			font-size: 30px;
+			color: #636363;
+		}
+		.more-list a{
+			font-size: 16px;
+			color: #ff6700;
+		}
 		/* 手机更多结束*/
 	/* 手机配置结束*/
 /*内容结束*/
+.footer{
+	background: white;
+	margin-bottom: 33px;
+}
+.footer .service{
+	height: 81px;
+	border-bottom:2px solid #e0e0e0;
+	box-sizing: border-box;
+}
+.footer .service .service-item{
+	float: left;
+	width: 20%;
+	height: 25px;
+	text-align: center;
+	border-right: 1px solid #e0e0e0;
+	box-sizing: border-box;
+	line-height: 25px;
+	margin:28px 0px;
+}
+.footer .service .service-item:last-child{
+	border-right: none;
+}
+.footer .service .service-item a{
+	font-size: 15px;
+	color:#616174;
+	cursor: pointer;
+}
+.footer .service .service-item a:hover{
+	color: #ff6700;
+}
+.footer .service .service-item i{
+	font-size: 23px;
+	vertical-align: -3px;
+}
+
+
+
+.end .container{
+	height: 300px;
+	position: relative;
+}
+.end .end-link{
+	float: left;
+	width: 930px;
+}
+.end .end-link .end-link-item{
+	width: 155px;
+	height: 195px;
+	float: left;
+}
+.end .end-link .end-link-item dt{
+	font-size: 14px;
+	color: #424247;
+	margin-bottom: 32px;
+}
+.end .end-link .end-link-item dd{
+	margin-bottom: 8px;
+	color: #8e8e8e;
+}
+.end .end-link .end-link-item a:hover{
+	color: #ff6700;
+}
+.end .contact{
+	float: right;
+	width: 245px;
+	text-align: center;
+	border-left: 2px solid #e0e0e0;
+}
+.end .contact .contact-tel{
+	font-size: 20px;
+	color: #ff6700;
+	margin-top: 5px;
+}
+.end .contact .contact-worktime{
+	font-size: 12px;
+	color: #616161;
+	margin-top: 11px;
+}
+.end .contact .contact-desc{
+	font-size: 12px;
+	color: #616161;
+	margin-top: 6px;
+}
+.end .contact .contact-online{
+	display: inline-block;
+	width: 119px;
+	height: 30px;
+	border:2px solid #ff6700;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.end .contact .contact-online a{
+	font-size: 12px;
+	color: #ff6700;
+}
+.end .contact .contact-online:hover{
+	background: #ff6700;
+}
+.end .contact .contact-online:hover a{
+	color: #fff;
+}
+.end .end-nav{
+	position: relative;
+	width: 1226px;
+	height: 60px;
+	float: left;
+}
+.end .end-nav .end-logo{
+	float: left;
+	width: 60px;
+	height: 60px;
+	background: #ff6700;
+}
+.end .end-nav .end-nav-list{
+	color: #799ed0;
+	font-size: 12px;
+	margin-left: 80px;
+}
+.end .end-nav .end-nav-list span{
+	color: #e0e0e0;
+	margin-left: 5px;
+	right: 5px;
+}
+.end .end-nav .end-nav-list a:hover{
+	color: #ff6700;
+}
+.end .end-nav-p1{
+	font-size: 12px;
+	color: #c0b0b0;
+	margin-left: 80px;
+	margin-top: 8px;
+}
+.end .end-nav-p1 a:hover{
+	color: #ff6700;
+}
+.end .end-nav-repo{
+	font-size: 12px;
+	color: #c0b0b0;
+	margin-left: 80px;
+	margin-top: 8px;
+}
+.end .end-nav .v-logo{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.end .end-nav .v-logo a img{
+	width: 80px;
+	height: 26px;
+}
+.end .end-bg{
+	position: absolute;
+	bottom: 5px;
+	left: 50%;
+	margin-left: -140px;
+	width: 280px;
+	height: 23px;
+	background: url(../images/slogan.png) no-repeat;
+}
