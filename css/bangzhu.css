@@ -291,12 +291,13 @@
 	padding-top: 81px;
 	box-sizing: border-box;
 	transition: 0.5s;
+	cursor: pointer;
 }
 .ee .ee-e:hover{
 	box-shadow: 0 5px 30px rgba(0,0,0,0.2);
 	transform: translateY(-20px);
 }
-.ee .ee-e a:hover{
+.ee .ee-e:hover a{
 	color: #ff6700;
 }
 .ee .ee-e a i{
@@ -423,17 +424,47 @@
 	color: #fff;
 	background: #ff6700;
 }
+.uu .uu-bb .uu-aa-jj{
+	padding-top: 43px;
+}
 .uu .uu-bb .uu-aa-cc{
 	float: left;
+	width: 563px;
+	height: 14px;
+	font-size: 14px;
+	margin-top: 0px;
 	margin-left: 50px;
-	margin-top: 20px;
-	margin-right: 374px;
-	list-style: all;
+	margin-bottom: 20px;
+	cursor: pointer;
 }
-
-
-
-
+.uu .uu-bb .uu-aa-cc:hover{
+	color: #ff6700;
+}
+.uu .uu-bb .uu-aa-cc span{
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	background-color: #e2e2e2;
+	border-radius: 100px;
+	position: relative;
+	top: 0;
+	left:-10px;
+}
+.uu .uu-bb .uu-aa-cc:hover span{
+	background-color: #ff6700;
+}
+.uu .uu-bb p{
+	text-align: center;
+	margin-top: -20px;
+	cursor: pointer;
+}
+.uu .uu-bb a{
+	color: #767676;
+	font-size: 17px;
+}
+.uu .uu-bb a:hover{
+	color: #ff6700;
+}
 
 
 
@@ -470,13 +501,11 @@
 	margin-top: 91px;
 }
 .vr .vr-oo:hover{
-	/*box-shadow: 0 5px 30px rgba(0,0,0,0.2);*/
 	transform: translateY(-20px);
 }
 .footer{
 	margin-top: 63px;
 	height: 273px;
-/*	background: gray;*/
 }
 .footer .service{
 	padding: 27px 0;
