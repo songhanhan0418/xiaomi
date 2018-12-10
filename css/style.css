@@ -237,9 +237,15 @@
 	color:  #575757;
 }
 .ft .footer-right p:nth-child(2){
+<<<<<<< HEAD
 	font-size: 22px;
 	color: #fd3911;
 	margin: 6px 0;
+=======
+	font-size: 20px;
+	color: #ff6700;
+        margin:5px 0;
+>>>>>>> fa034e639833df3aca2d480f7b5753403c96c913
 }
 .ft .footer-right p:nth-child(3){
 	font-size: 11px;
