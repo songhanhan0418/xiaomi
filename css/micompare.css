@@ -6,6 +6,8 @@
 		margin-right: auto;
 	}
 	.bg-fff{
+		position: relative;
+		top: -80px;
 		background-color: #fff;
 	}
 	a{
@@ -155,8 +157,14 @@
 			color: #000;
 			font-size: 16px;
 		}
-		.header .shop-ul-li a:hover{
+		.header .shop-ul-li:hover a{
 			color:#ff6700;
+		}
+		.header .shop-list:hover a{
+			color:#000;
+		}
+		.header .shop-list:hover{
+			color:#000;
 		}
 	/*商品链接结束*/
 	/*搜索框*/
@@ -288,6 +296,7 @@
 			background: url(../images/compare-bg.png);
 			background-repeat: no-repeat;
 			background-size: 100%;
+			background-size: cover;
 			text-align: center;
 		}
 		.main-bg-text{
@@ -437,7 +446,7 @@
 		.more .more-list{
 			float: left;
 			width: 33%;
-			height: 500px;
+			height: 450px;
 			text-align: center;
 		}
 		.more-list img{
@@ -455,162 +464,209 @@
 		/* 手机更多结束*/
 	/* 手机配置结束*/
 /*内容结束*/
-.footer{
-	background: white;
-	margin-bottom: 33px;
-}
-.footer .service{
-	height: 81px;
-	border-bottom:2px solid #e0e0e0;
+/*底部服务*/
+	.footer{
+		background: white;
+		margin-bottom: 33px;
+	}
+	.footer .service{
+		height: 81px;
+		border-bottom:2px solid #e0e0e0;
+		box-sizing: border-box;
+	}
+	.footer .service .service-item{
+		float: left;
+		width: 20%;
+		height: 25px;
+		text-align: center;
+		border-right: 1px solid #e0e0e0;
+		box-sizing: border-box;
+		line-height: 25px;
+		margin:28px 0px;
+	}
+	.footer .service .service-item:last-child{
+		border-right: none;
+	}
+	.footer .service .service-item a{
+		font-size: 15px;
+		color:#616174;
+		cursor: pointer;
+	}
+	.footer .service .service-item a:hover{
+		color: #ff6700;
+	}
+	.footer .service .service-item i{
+		font-size: 23px;
+		vertical-align: -3px;
+	}
+/*底部服务结束*/
+
+/*底部链接*/
+	.end .container{
+		height: 300px;
+		position: relative;
+	}
+	/*帮助中心*/
+		.end .end-link{
+			float: left;
+			width: 930px;
+		}
+		.end .end-link .end-link-item{
+			width: 155px;
+			height: 195px;
+			float: left;
+		}
+		.end .end-link .end-link-item dt{
+			font-size: 14px;
+			color: #424247;
+			margin-bottom: 32px;
+		}
+		.end .end-link .end-link-item dd{
+			margin-bottom: 8px;
+		}
+		.end-link-item a{
+			color: #757575;
+		}
+		.end .end-link .end-link-item a:hover{
+			color: #ff6700;
+		}
+	/*帮助中心结束*/
+	/*联系方式*/
+		.end .contact{
+			float: right;
+			width: 245px;
+			text-align: center;
+			border-left: 2px solid #e0e0e0;
+		}
+		.end .contact .contact-tel{
+			font-size: 20px;
+			color: #ff6700;
+			margin-top: 5px;
+		}
+		.end .contact .contact-worktime{
+			font-size: 12px;
+			color: #616161;
+			margin-top: 11px;
+		}
+		.end .contact .contact-desc{
+			font-size: 12px;
+			color: #616161;
+			margin-top: 6px;
+		}
+		.end .contact .contact-online{
+			display: inline-block;
+			width: 119px;
+			height: 30px;
+			border:2px solid #ff6700;
+			margin-top: 20px;
+			cursor: pointer;
+		}
+		.end .contact .contact-online a{
+			font-size: 12px;
+			color: #ff6700;
+		}
+		.end .contact .contact-online:hover{
+			background: #ff6700;
+		}
+		.end .contact .contact-online:hover a{
+			color: #fff;
+		}
+	/*联系方式结束*/
+	/*底部logo链接*/
+		.end .end-nav{
+			position: relative;
+			width: 1226px;
+			height: 60px;
+			float: left;
+		}
+		.end .end-nav .end-logo{
+			float: left;
+			width: 60px;
+			height: 60px;
+			background: #ff6700;
+		}
+		.end .end-nav .end-nav-list{
+			font-size: 12px;
+			margin-left: 80px;
+		}
+		.end-nav-list a{
+			color: #757575;
+		}
+		.end .end-nav .end-nav-list span{
+			color: #e0e0e0;
+			margin-left: 5px;
+			right: 5px;
+		}
+		.end .end-nav .end-nav-list a:hover{
+			color: #ff6700;
+		}
+		.end .end-nav-p1{
+			font-size: 12px;
+			color: #c0b0b0;
+			margin-left: 80px;
+			margin-top: 8px;
+		}
+		.end .end-nav-p1 a:hover{
+			color: #ff6700;
+		}
+		.end .end-nav-repo{
+			font-size: 12px;
+			color: #c0b0b0;
+			margin-left: 80px;
+			margin-top: 8px;
+		}
+		.end .end-nav .v-logo{
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+		.end .end-nav .v-logo a img{
+			width: 80px;
+			height: 26px;
+		}
+	/*底部logo链接结束*/
+	.end .end-bg{
+		position: absolute;
+		bottom: -40px;
+		left: 50%;
+		margin-left: -140px;
+		margin-bottom: 20px;
+		width: 280px;
+		height: 23px;
+		background: url(../images/slogan.png) no-repeat;
+	}
+/*底部链接结束*/
+
+
+.banner-ad-ul{
+	width: 234px;
+	height: 460px;
+	line-height: 40px;
+	padding: 15px 0 20px 0;
 	box-sizing: border-box;
+	background-color: #fff;
 }
-.footer .service .service-item{
-	float: left;
-	width: 20%;
-	height: 25px;
-	text-align: center;
-	border-right: 1px solid #e0e0e0;
-	box-sizing: border-box;
-	line-height: 25px;
-	margin:28px 0px;
-}
-.footer .service .service-item:last-child{
-	border-right: none;
-}
-.footer .service .service-item a{
-	font-size: 15px;
-	color:#616174;
-	cursor: pointer;
-}
-.footer .service .service-item a:hover{
-	color: #ff6700;
-}
-.footer .service .service-item i{
-	font-size: 23px;
-	vertical-align: -3px;
-}
-
-
-
-.end .container{
-	height: 300px;
+.banner-ad-ul{
 	position: relative;
+	left: -105px;
+	top: 20px;
+	display: none;
+	z-index: 1;
+	border: 1px solid #ff6700;
 }
-.end .end-link{
-	float: left;
-	width: 930px;
-}
-.end .end-link .end-link-item{
-	width: 155px;
-	height: 195px;
-	float: left;
-}
-.end .end-link .end-link-item dt{
-	font-size: 14px;
-	color: #424247;
-	margin-bottom: 32px;
-}
-.end .end-link .end-link-item dd{
-	margin-bottom: 8px;
-	color: #8e8e8e;
-}
-.end .end-link .end-link-item a:hover{
-	color: #ff6700;
-}
-.end .contact{
-	float: right;
-	width: 245px;
-	text-align: center;
-	border-left: 2px solid #e0e0e0;
-}
-.end .contact .contact-tel{
+.banner-ad-ul-li{
+	cursor: pointer;
+	padding-left: 30px;
 	font-size: 20px;
-	color: #ff6700;
-	margin-top: 5px;
+	color:#bbbab7;
 }
-.end .contact .contact-worktime{
-	font-size: 12px;
-	color: #616161;
-	margin-top: 11px;
+.banner-ad-ul-li a{
+	color: #000;
 }
-.end .contact .contact-desc{
-	font-size: 12px;
-	color: #616161;
-	margin-top: 6px;
+.banner-ad-ul-li i{
+	margin-right: 15px;
+	float: right;
 }
-.end .contact .contact-online{
-	display: inline-block;
-	width: 119px;
-	height: 30px;
-	border:2px solid #ff6700;
-	margin-top: 20px;
-	cursor: pointer;
-}
-.end .contact .contact-online a{
-	font-size: 12px;
-	color: #ff6700;
-}
-.end .contact .contact-online:hover{
+.banner-ad-ul-li:hover{
 	background: #ff6700;
-}
-.end .contact .contact-online:hover a{
-	color: #fff;
-}
-.end .end-nav{
-	position: relative;
-	width: 1226px;
-	height: 60px;
-	float: left;
-}
-.end .end-nav .end-logo{
-	float: left;
-	width: 60px;
-	height: 60px;
-	background: #ff6700;
-}
-.end .end-nav .end-nav-list{
-	color: #799ed0;
-	font-size: 12px;
-	margin-left: 80px;
-}
-.end .end-nav .end-nav-list span{
-	color: #e0e0e0;
-	margin-left: 5px;
-	right: 5px;
-}
-.end .end-nav .end-nav-list a:hover{
-	color: #ff6700;
-}
-.end .end-nav-p1{
-	font-size: 12px;
-	color: #c0b0b0;
-	margin-left: 80px;
-	margin-top: 8px;
-}
-.end .end-nav-p1 a:hover{
-	color: #ff6700;
-}
-.end .end-nav-repo{
-	font-size: 12px;
-	color: #c0b0b0;
-	margin-left: 80px;
-	margin-top: 8px;
-}
-.end .end-nav .v-logo{
-	position: absolute;
-	right: 0;
-	top: 0;
-}
-.end .end-nav .v-logo a img{
-	width: 80px;
-	height: 26px;
-}
-.end .end-bg{
-	position: absolute;
-	bottom: 5px;
-	left: 50%;
-	margin-left: -140px;
-	width: 280px;
-	height: 23px;
-	background: url(../images/slogan.png) no-repeat;
 }
