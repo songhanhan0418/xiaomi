@@ -1,5 +1,7 @@
 
 handleCart();
+handleShop();
+
 //购物车
 function handleCart(){
 	//1.获取元素
@@ -30,3 +32,36 @@ function handleCart(){
 	}
 }
 //导航栏
+function handleShop(){
+	var aShopNav = document.querySelectorAll('.shop .shop-ul-li');
+	var oShopContent = document.querySelector('.header-content');
+	var aShopContent = document.querySelectorAll('.header-content li');
+	var timer = 0;
+	for(var i = 0;i<aShopNav.length-2;i++){
+		aShopNav[i].index = i;
+		aShopNav[i].onmouseenter = function(){
+			clearTimeout(timer);
+			loadData(this.index);
+		}
+		aShopNav[i].onmouseleave =oShopContent.onmouseleave= function(){
+			
+			timer = setTimeout(function(){
+				animate(oShopContent,{'height':0},true);
+				oShopContent.style.overflow = 'hidden';
+			},500);
+		}
+		oShopContent.onmouseenter = function(){
+			clearTimeout(timer);
+			animate(oShopContent,{'height':200},true,function(){
+				oShopContent.style.overflow = 'visible';
+			});
+		}
+	}
+	function loadData(index){
+		animate(oShopContent,{height:200},true,function(){
+			oShopContent.style.overflow = 'visible';
+		});
+		console.log(oShopContent)
+	}
+	
+}
