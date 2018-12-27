@@ -1,381 +1,10 @@
-/*<ul>
-					<li>
-						<div class="img-box">
-							<a href="#">
-								<img src="images/mix3.png" alt="">
-							</a>
-						</div>
-						<a class="product-name" href="#">小米MIX3</a>
-						<p class="product-price">3299元起</p>
-						<span class="product-tag">新品</span>
-					</li>
-*/
-
-
-
-
-
-var aShopItem = [
-	[
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-
-	],
-	[
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX2',
-			price:'3299',
-			tag:'新品'
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX2',
-			price:'3299',
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX2',
-			price:'3299',
-			tag:'新品'
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX2',
-			price:'3299',
-			tag:'新品'
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX2',
-			price:'3299',
-			tag:'新品'
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX2',
-			price:'3299',
-			tag:'新品'
-		},
-
-	],
-	[
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-
-	],
-	[
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-
-	],
-	[
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-
-	],
-	[
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-		},
-
-	],
-	[
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-
-	],
-	[
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-		{
-			url:'http://www.baidu.com',
-			img:'images/mix3.png',
-			name:'小米MIX3',
-			price:'3299',
-			tag:'新品'
-		},
-
-	],
-]
-
-
 
 
 handleCart();
 handleShop();
+handleele();
+handleCarousel();
+handleTimeDown();
 
 //购物车
 function handleCart(){
@@ -429,7 +58,6 @@ function handleShop(){
 			},1000);
 		}
 		aShopNav[i].onmouseleave =oShopContent.onmouseleave= function(){
-			
 			timer = setTimeout(function(){
 				animate(oShopContent,{'height':0},true,function(){
 					oShopContent.style.borderTop = 'none';
@@ -463,7 +91,61 @@ function handleShop(){
 		}
 		html += '</ul>';
 		oShopContent.innerHTML = html;
-/*		console.log(data)*/
 	}
+}
+//轮播图
+function handleCarousel(){
+	new Carousel({
+		id:'carousel',
+		aImg:['images/b1.jpg','images/b2.jpg','images/b3.jpg'],
+		width:1226,
+		height:460,
+		playDuration:2000
+	})
+}
+//左边电话卡
+function handleele(){
+	var oBannerBox = document.querySelector('.banner-box');
+	var aSelectList = document.querySelectorAll('.banner-ad-ul-li');
+	var oBannerContent = document.querySelector('.banner-content');
+
+	for(var i = 0 ;i<aSelectList.length;i++){
+		aSelectList[i].index = i;
+		aSelectList[i].onmouseenter = function(){
+			for(var j = 0;j<aSelectList.length;j++){
+				aSelectList[j].className = 'banner-ad-ul-li';
+			}
+			oBannerContent.style.display = 'block';
+			this.className = 'banner-ad-ul-li active'
+			LoadData(this.index);
+		}
+
+	}
+	oBannerBox.onmouseleave = function(){
+		for(var j = 0;j<aSelectList.length;j++){
+			aSelectList[j].className = 'banner-ad-ul-li';
+		}		
+		oBannerContent.style.display = 'none';
+	}
+	function LoadData(index){
+		var data = aBannerContent[index];
+		var html = '<ul>'
+		for(var i = 0 ;i<data.length;i++){
+			html +='<li>';
+			html +='	<a href="'+data[i].url+'">';
+			html +='	<img src="'+data[i].img+'" alt="">';
+			html +='		<span>'+data[i].name+'</span>';
+			html +='	</a>';
+			html +='</li>';
+		}
+		html += '</ul>';
+		oBannerContent.innerHTML = html;
+	}
+}
+function handleTimeDown(){
+	var aFlashTime = document.querySelectorAll('.flash-time-span');
 	
+	aFlashTime[0].innerHTML = 
+	aFlashTime[1].innerHTML = 
+	aFlashTime[2].innerHTML = 
 }

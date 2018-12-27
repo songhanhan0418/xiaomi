@@ -321,6 +321,9 @@
 	position: relative;
 	margin-bottom: 14px;
 }
+.home .banner-ad{
+	position: relative;
+}
 .home .banner-ad-ul{
 	width: 234px;
 	height: 460px;
@@ -329,21 +332,93 @@
 	box-sizing: border-box;
 	background-color: rgba(0,0,0,0.5);
 }
-.home .banner-ad .banner-ad-a{
+.banner-content{
+	z-index: 999;
+	position: absolute;
+	left: 234px;
+	top: 0;
+	height: 460px;
+	background-color: #fff;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.banner-content ul{
+	width: 100%;
+	height: 100%;
+}
+.banner-content li{
+	float: left;
+	width: 240px;
+	height: 76px;
+}
+.banner-content li:hover span{
+	color: #ff6700;
+}
+.banner-content li img{
+	width: 50px;
+	height: 50px;
+	vertical-align: middle;
+}
+.banner-content li span{
+	color: #000;
+}
+/* .home .banner-ad .banner-ad-a{
 	position: absolute;
 	left: 0;
 	top:0;
 	width: 1226px;
 	height: 460px;
-	background-color: red;
 }
 .home .banner-ad .banner-ad-a img{
 	width: 1226px;
 	height: 460px;
-}
+} */
+		.leftArrow,.rightArrow{
+			position: absolute;
+			top: 50%;
+			margin-top: -30px;
+			width: 30px;
+			height: 60px;
+			line-height: 60px;
+			font-size: 30px;
+			text-align: center;
+			cursor: pointer;
+		}
+		.leftArrow{
+			left: 0;
+		}
+		.leftArrow:hover{
+			background-color: #ccc;
+		}
+		.rightArrow{
+			right: 0;
+		}
+		.rightArrow:hover{
+			background-color: #ccc;
+		}
+		.bottomBtn{
+			position: absolute;
+			left: 50%;
+			bottom: 10px;
+			list-style: none;
+		}
+		.bottomBtn li{
+			float: left;
+			width: 20px;
+			height: 20px;
+			border: 2px solid #888;
+			margin-right: 5px;
+			background-color: #666;
+			border-radius: 50%;
+			cursor: pointer;
+		}
+		.bottomBtn li.active{
+			background-color: #ff6700;
+		}
 .home .banner-ad-ul{
 	position: relative;
-	z-index: 1;
+	z-index: 51;
 }
 .home .banner-ad-ul-li{
 	cursor: pointer;
@@ -358,7 +433,7 @@
 	margin-right: 15px;
 	float: right;
 }
-.home .banner .banner-span{
+/* .home .banner .banner-span{
 	position: absolute;
 	top: 50%;
 	margin-top: -40px;
@@ -400,10 +475,10 @@
 .home .banner .banner-span:hover{
 	background: #222;
 	color:#fff;
-}
-.home .banner-ad-ul-li:hover{
+}*/
+.home .banner-ad-ul-li.active{
 	background: #ff6700;
-}
+} 
 .home .box{
 	height: 170px;
 	margin-bottom: 14px;
