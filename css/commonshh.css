@@ -90,11 +90,7 @@ a{
 	margin-left: 10px;
 	cursor: pointer;
 }
-.tab-list li:hover{
-	color: #ff6700;
-	border-bottom: 2px solid #ff6700;
-}
-.tab-list li:first-child{
+.tab-list li.active{
 	color: #ff6700;
 	border-bottom: 2px solid #ff6700;
 }
@@ -233,12 +229,16 @@ a{
 	height: 143px;
 }
 .ad-item-s .ad-item-s-name{
+	display: block;
 	margin-top: 44px;
 	margin-left: 20px;
+	font-size: 16px;
+	color:#000;
 	text-align: left;
 	cursor: pointer;
 }
 .ad-item-s .ad-item-s-pr{
+	display: block;
 	margin-top: 10px;
 	margin-left: 20px;
 	text-align: left;

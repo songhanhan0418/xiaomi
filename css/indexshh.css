@@ -620,8 +620,8 @@
 	float: right;
 	width: 978px;
 	height: 340px;
+	overflow: hidden;
 }
-
 .home .ad{
 	width: 100%;
 	height: 121px;

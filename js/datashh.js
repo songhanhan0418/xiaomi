@@ -760,3 +760,527 @@ var aBannerContent = [
 		}
 	]
 ]
+//选项卡数据
+			/*<li class="ad-item-m ad-item nobd">
+						<a href="#">
+							<img src="images/p1.jpg" alt="">
+						</a>
+						<p class="item-name">小米MIX 2 8GB+128GB 黑色aaaaaaaaaaaa</p>
+						<p class="item-desc">Unibody 全陶瓷</p>
+						<p class="item-pr">
+							<strong class="item-pr-now">3699<span>元</span></strong>
+							<del class="item-pr-old">4699元</del>
+						</p>
+						<div class="item-black"></div>
+						<span class="sell-off sell">减300元</span>
+						<div class="repo">
+							<p class="repo-info">11111132134353456564553dsadhucjkbjhudhgasudghusiad4</p>
+							<p class="repo-from">来自于<span class="repo-authr">4561245</span>的评价</p>
+						</div>
+					</li>*/
+var aTabListContent = [
+	[
+		{
+			url:'http://www.baidu.com',
+			img:'images/p1.jpg',
+			name:'小米MIX 2 8GB+128GB 黑色aaa',
+			desc:'Unibody 全陶瓷',
+			price:'3699',
+			del:'4699',
+			sell:{
+				name:'sell-off',
+				content:'减300元',
+			},
+			repo:{
+				info:'11111132134353456564553dsadhucjk',
+				authr:'4561245'
+			}
+		},
+		{
+			url:'http://www.baidu.com',
+			img:'images/p1.jpg',
+			name:'小米MIX 2 8GB+128GB 黑色aaa',
+			desc:'Unibody 全陶瓷',
+			price:'3699',
+			del:'4699',
+			sell:{
+				name:'sell-off',
+				content:'减300元',
+			},
+			repo:{
+				info:'11111132134353456564553dsadhucjk',
+				authr:'4561245'
+			}
+		},
+		{
+			url:'http://www.baidu.com',
+			img:'images/p1.jpg',
+			name:'小米MIX 2 8GB+128GB 黑色aaa',
+			desc:'Unibody 全陶瓷',
+			price:'3699',
+			del:'4699',
+			sell:{
+				name:'sell-off',
+				content:'减300元',
+			},
+			repo:{
+				info:'11111132134353456564553dsadhucjk',
+				authr:'4561245'
+			}
+		},
+		{
+			url:'http://www.baidu.com',
+			img:'images/p1.jpg',
+			name:'小米MIX 2 8GB+128GB 黑色aaa',
+			desc:'Unibody 全陶瓷',
+			price:'3699',
+			del:'4699',
+			sell:{
+				name:'sell-off',
+				content:'减300元',
+			},
+			repo:{
+				info:'11111132134353456564553dsadhucjk',
+				authr:'4561245'
+			}
+		},
+		{
+			url:'http://www.baidu.com',
+			img:'images/p1.jpg',
+			name:'小米MIX 2 8GB+128GB 黑色aaa',
+			desc:'Unibody 全陶瓷',
+			price:'3699',
+			del:'4699',
+			sell:{
+				name:'sell-off',
+				content:'减300元',
+			},
+			repo:{
+				info:'11111132134353456564553dsadhucjk',
+				authr:'4561245'
+			}
+		},
+		{
+			url:'http://www.baidu.com',
+			img:'images/p1.jpg',
+			name:'小米MIX 2 8GB+128GB 黑色aaa',
+			desc:'Unibody 全陶瓷',
+			price:'3699',
+			del:'4699',
+			sell:{
+				name:'sell-off',
+				content:'减300元',
+			},
+			repo:{
+				info:'11111132134353456564553dsadhucjk',
+				authr:'4561245'
+			}
+		},
+		{
+			url:'http://www.baidu.com',
+			img:'images/p1.jpg',
+			name:'小米MIX 2 8GB+128GB 黑色aaa',
+			desc:'Unibody 全陶瓷',
+			price:'3699',
+			del:'4699',
+			sell:{
+				name:'sell-off',
+				content:'减300元',
+			},
+			repo:{
+				info:'11111132134353456564553dsadhucjk',
+				authr:'4561245'
+			}
+		},
+		{
+			top:{
+				name:'小白摄像机',
+				price:'369',
+				url:'http://www.baidu.com',
+				img:'images/ca.png'
+			},
+			bottom:{
+				urlMore:'http://www.baidu.com',
+				urlHot:'http://www.baidu.com',
+			}
+		}
+	],
+	[
+		{
+			url:'http://www.baidu.com',
+			img:'images/p2.jpg',
+			name:'小米MIX 2 8GB+128GB 黑色aaa',
+			desc:'Unibody 全陶瓷',
+			price:'3699',
+			del:'4699',
+			sell:{
+				name:'sell-off',
+				content:'减300元',
+			},
+			repo:{
+				info:'11111132134353456564553dsadhucjk',
+				authr:'4561245'
+			}
+		},
+		{
+			url:'http://www.baidu.com',
+			img:'images/p2.jpg',
+			name:'小米MIX 2 8GB+128GB 黑色aaa',
+			desc:'Unibody 全陶瓷',
+			price:'3699',
+			del:'4699',
+			sell:{
+				name:'sell-off',
+				content:'减300元',
+			},
+			repo:{
+				info:'11111132134353456564553dsadhucjk',
+				authr:'4561245'
+			}
+		},
+		{
+			url:'http://www.baidu.com',
+			img:'images/p2.jpg',
+			name:'小米MIX 2 8GB+128GB 黑色aaa',
+			desc:'Unibody 全陶瓷',
+			price:'3699',
+			del:'4699',
+			sell:{
+				name:'sell-off',
+				content:'减300元',
+			},
+			repo:{
+				info:'11111132134353456564553dsadhucjk',
+				authr:'4561245'
+			}
+		},
+		{
+			url:'http://www.baidu.com',
+			img:'images/p2.jpg',
+			name:'小米MIX 2 8GB+128GB 黑色aaa',
+			desc:'Unibody 全陶瓷',
+			price:'3699',
+			del:'4699',
+			sell:{
+				name:'sell-off',
+				content:'减300元',
+			},
+			repo:{
+				info:'11111132134353456564553dsadhucjk',
+				authr:'4561245'
+			}
+		},
+		{
+			url:'http://www.baidu.com',
+			img:'images/p2.jpg',
+			name:'小米MIX 2 8GB+128GB 黑色aaa',
+			desc:'Unibody 全陶瓷',
+			price:'3699',
+			del:'4699',
+			sell:{
+				name:'sell-off',
+				content:'减300元',
+			},
+			repo:{
+				info:'11111132134353456564553dsadhucjk',
+				authr:'4561245'
+			}
+		},
+		{
+			url:'http://www.baidu.com',
+			img:'images/p2.jpg',
+			name:'小米MIX 2 8GB+128GB 黑色aaa',
+			desc:'Unibody 全陶瓷',
+			price:'3699',
+			del:'4699',
+			sell:{
+				name:'sell-off',
+				content:'减300元',
+			},
+			repo:{
+				info:'11111132134353456564553dsadhucjk',
+				authr:'4561245'
+			}
+		},
+		{
+			url:'http://www.baidu.com',
+			img:'images/p2.jpg',
+			name:'小米MIX 2 8GB+128GB 黑色aaa',
+			desc:'Unibody 全陶瓷',
+			price:'3699',
+			del:'4699',
+			sell:{
+				name:'sell-off',
+				content:'减300元',
+			},
+			repo:{
+				info:'11111132134353456564553dsadhucjk',
+				authr:'4561245'
+			}
+		},
+		{
+			top:{
+				name:'小白摄像机',
+				price:'369',
+				url:'http://www.baidu.com',
+				img:'images/ca.png'
+			},
+			bottom:{
+				urlMore:'http://www.baidu.com',
+				urlHot:'http://www.baidu.com',
+			}
+		}
+	],
+	[
+		{
+			url:'http://www.baidu.com',
+			img:'images/p1.jpg',
+			name:'小米MIX 2 8GB+128GB 黑色aaa',
+			desc:'Unibody 全陶瓷',
+			price:'3699',
+			del:'4699',
+			sell:{
+				name:'sell-off',
+				content:'减300元',
+			},
+			repo:{
+				info:'11111132134353456564553dsadhucjk',
+				authr:'4561245'
+			}
+		},
+		{
+			url:'http://www.baidu.com',
+			img:'images/p1.jpg',
+			name:'小米MIX 2 8GB+128GB 黑色aaa',
+			desc:'Unibody 全陶瓷',
+			price:'3699',
+			del:'4699',
+			sell:{
+				name:'sell-off',
+				content:'减300元',
+			},
+			repo:{
+				info:'11111132134353456564553dsadhucjk',
+				authr:'4561245'
+			}
+		},
+		{
+			url:'http://www.baidu.com',
+			img:'images/p1.jpg',
+			name:'小米MIX 2 8GB+128GB 黑色aaa',
+			desc:'Unibody 全陶瓷',
+			price:'3699',
+			del:'4699',
+			sell:{
+				name:'sell-off',
+				content:'减300元',
+			},
+			repo:{
+				info:'11111132134353456564553dsadhucjk',
+				authr:'4561245'
+			}
+		},
+		{
+			url:'http://www.baidu.com',
+			img:'images/p1.jpg',
+			name:'小米MIX 2 8GB+128GB 黑色aaa',
+			desc:'Unibody 全陶瓷',
+			price:'3699',
+			del:'4699',
+			sell:{
+				name:'sell-off',
+				content:'减300元',
+			},
+			repo:{
+				info:'11111132134353456564553dsadhucjk',
+				authr:'4561245'
+			}
+		},
+		{
+			url:'http://www.baidu.com',
+			img:'images/p1.jpg',
+			name:'小米MIX 2 8GB+128GB 黑色aaa',
+			desc:'Unibody 全陶瓷',
+			price:'3699',
+			del:'4699',
+			sell:{
+				name:'sell-off',
+				content:'减300元',
+			},
+			repo:{
+				info:'11111132134353456564553dsadhucjk',
+				authr:'4561245'
+			}
+		},
+		{
+			url:'http://www.baidu.com',
+			img:'images/p1.jpg',
+			name:'小米MIX 2 8GB+128GB 黑色aaa',
+			desc:'Unibody 全陶瓷',
+			price:'3699',
+			del:'4699',
+			sell:{
+				name:'sell-off',
+				content:'减300元',
+			},
+			repo:{
+				info:'11111132134353456564553dsadhucjk',
+				authr:'4561245'
+			}
+		},
+		{
+			url:'http://www.baidu.com',
+			img:'images/p1.jpg',
+			name:'小米MIX 2 8GB+128GB 黑色aaa',
+			desc:'Unibody 全陶瓷',
+			price:'3699',
+			del:'4699',
+			sell:{
+				name:'sell-off',
+				content:'减300元',
+			},
+			repo:{
+				info:'11111132134353456564553dsadhucjk',
+				authr:'4561245'
+			}
+		},
+		{
+			top:{
+				name:'小白摄像机',
+				price:'369',
+				url:'http://www.baidu.com',
+				img:'images/ca.png'
+			},
+			bottom:{
+				urlMore:'http://www.baidu.com',
+				urlHot:'http://www.baidu.com',
+			}
+		}
+	],
+	[
+		{
+			url:'http://www.baidu.com',
+			img:'images/p2.jpg',
+			name:'小米MIX 2 8GB+128GB 黑色aaa',
+			desc:'Unibody 全陶瓷',
+			price:'3699',
+			del:'4699',
+			sell:{
+				name:'sell-off',
+				content:'减300元',
+			},
+			repo:{
+				info:'11111132134353456564553dsadhucjk',
+				authr:'4561245'
+			}
+		},
+		{
+			url:'http://www.baidu.com',
+			img:'images/p2.jpg',
+			name:'小米MIX 2 8GB+128GB 黑色aaa',
+			desc:'Unibody 全陶瓷',
+			price:'3699',
+			del:'4699',
+			sell:{
+				name:'sell-off',
+				content:'减300元',
+			},
+			repo:{
+				info:'11111132134353456564553dsadhucjk',
+				authr:'4561245'
+			}
+		},
+		{
+			url:'http://www.baidu.com',
+			img:'images/p2.jpg',
+			name:'小米MIX 2 8GB+128GB 黑色aaa',
+			desc:'Unibody 全陶瓷',
+			price:'3699',
+			del:'4699',
+			sell:{
+				name:'sell-off',
+				content:'减300元',
+			},
+			repo:{
+				info:'11111132134353456564553dsadhucjk',
+				authr:'4561245'
+			}
+		},
+		{
+			url:'http://www.baidu.com',
+			img:'images/p2.jpg',
+			name:'小米MIX 2 8GB+128GB 黑色aaa',
+			desc:'Unibody 全陶瓷',
+			price:'3699',
+			del:'4699',
+			sell:{
+				name:'sell-off',
+				content:'减300元',
+			},
+			repo:{
+				info:'11111132134353456564553dsadhucjk',
+				authr:'4561245'
+			}
+		},
+		{
+			url:'http://www.baidu.com',
+			img:'images/p2.jpg',
+			name:'小米MIX 2 8GB+128GB 黑色aaa',
+			desc:'Unibody 全陶瓷',
+			price:'3699',
+			del:'4699',
+			sell:{
+				name:'sell-off',
+				content:'减300元',
+			},
+			repo:{
+				info:'11111132134353456564553dsadhucjk',
+				authr:'4561245'
+			}
+		},
+		{
+			url:'http://www.baidu.com',
+			img:'images/p2.jpg',
+			name:'小米MIX 2 8GB+128GB 黑色aaa',
+			desc:'Unibody 全陶瓷',
+			price:'3699',
+			del:'4699',
+			sell:{
+				name:'sell-off',
+				content:'减300元',
+			},
+			repo:{
+				info:'11111132134353456564553dsadhucjk',
+				authr:'4561245'
+			}
+		},
+		{
+			url:'http://www.baidu.com',
+			img:'images/p2.jpg',
+			name:'小米MIX 2 8GB+128GB 黑色aaa',
+			desc:'Unibody 全陶瓷',
+			price:'3699',
+			del:'4699',
+			sell:{
+				name:'sell-off',
+				content:'减300元',
+			},
+			repo:{
+				info:'11111132134353456564553dsadhucjk',
+				authr:'4561245'
+			}
+		},
+		{
+			top:{
+				name:'小白摄像机',
+				price:'369',
+				url:'http://www.baidu.com',
+				img:'images/ca.png'
+			},
+			bottom:{
+				urlMore:'http://www.baidu.com',
+				urlHot:'http://www.baidu.com',
+			}
+		}
+	],
+]
