@@ -399,7 +399,7 @@
 	border: 1px solid #ff6700;
 	box-sizing: border-box;
 	background: #fff;
-	z-index: 2;
+	z-index: 99999;
 }
 .search-list .search-list-li{
 	height: 30px;
@@ -432,6 +432,7 @@
 }
 .search-list .search-list-li:hover{
 	background: #eee;
+	z-index: 10000;
 }
 .header .search .search-input:focus{
 	border:1px solid #ff6700;
@@ -834,6 +835,12 @@
 	width: 234px;
 	height: 140px;
 	margin-bottom: 20px;
+}
+.col2 .elec-product{
+	float: left;
+}
+.col2 .elec-product li{
+	float: left;
 }
 .elec-product .product-item-l a{
 	position: relative;

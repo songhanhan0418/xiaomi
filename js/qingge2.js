@@ -441,109 +441,41 @@ var aBoxis = [
 		},
 	],
 ];
-选项卡
-/*
-	<li class="product-item product-item-m">
-									<a href="#">
-								<img src="images/p1.jpg" class="product-img">
-								<h3 class="product-name">小米MIX 2 8GB+128GB 黑色</h3></a>
-								<p class="product-desc">UNiboy 全陶瓷</p>
-								<p class="product-price">
-									<strong>3699</strong><span>&nbsp;元</span>
-								</p>
-									<div class="view">
-									<p class="hool">
-									我不是来评价的我是来拉仇恨哈哈哈哈哈哈哈</p>
-									<p class="hook">
-										来自于<span>清欢</span>的评价
-									</p>
-							</li>
-							*/
-var aPapa = [
+// 选项卡
+
+var aCba = [
 	[
 		{
 			url:'https://www.baidu.com/',
-			img:'images/p2.jpg',
-			name:'小米MIX 2 8GB+128GB 黑色',
-			desc:'UNiboy 全陶瓷',
-			price:'3699',
-			view:{
-				hool:'我不是来评价的我是来拉仇恨哈哈哈哈',
-				hook:'清欢'
- 			}
-		},
-		{
-			url:'https://www.baidu.com/',
+			b1:'减600元',
 			img:'images/p1.jpg',
 			name:'小米MIX 2 8GB+128GB 黑色',
 			desc:'UNiboy 全陶瓷',
 			price:'3699',
 			view:{
-				hool:'我不是来评价的我是来拉仇恨哈哈哈哈',
-				hook:'清欢'
- 			}
+				viewoo:'我不是来评价的我是来拉仇恨哈哈哈哈哈哈哈',
+				viewpp:'清欢'
+			},
 		},
 		{
 			url:'https://www.baidu.com/',
-			img:'images/p2.jpg',
-			name:'小米MIX 2 8GB+128GB 黑色',
-			desc:'UNiboy 全陶瓷',
-			price:'3699',
-			view:{
-				hool:'我不是来评价的我是来拉仇恨哈哈哈哈',
-				hook:'清欢'
- 			}
-		},
-		{
-			url:'https://www.baidu.com/',
-			img:'images/p1.jpg',
-			name:'小米MIX 3 8GB+128GB 黑色',
-			desc:'UNiboy 全陶瓷',
-			price:'3699',
-			view:{
-				hool:'我不是来评价的我是来拉仇恨哈哈哈哈',
-				hook:'清欢'
- 			}
-		},
-		{
-			url:'https://www.baidu.com/',
-			img:'images/p2.jpg',
-			name:'小米MIX 4 8GB+128GB 黑色',
-			desc:'UNiboy 全陶瓷',
-			price:'3699',
-			view:{
-				hool:'我不是来评价的我是来拉仇恨哈哈哈哈',
-				hook:'清欢'
- 			}
-		},
-		{
-			url:'https://www.baidu.com/',
+			b1:'减600元',
 			img:'images/p1.jpg',
 			name:'小米MIX 2 8GB+128GB 黑色',
 			desc:'UNiboy 全陶瓷',
 			price:'3699',
 			view:{
-				hool:'我不是来评价的我是来拉仇恨哈哈哈哈',
-				hook:'清欢'
- 			}
-		},
-		{
-			url:'https://www.baidu.com/',
-			img:'images/p1.jpg',
-			name:'小米MIX 2 8GB+128GB 黑色',
-			desc:'UNiboy 全陶瓷',
-			price:'3699',
-			view:{
-				hool:'我不是来评价的我是来拉仇恨哈哈哈哈',
-				hook:'清欢'
- 			}
+				viewoo:'我不是来评价的我是来拉仇恨哈哈哈哈哈哈哈',
+				viewpp:'清欢'
+			},
 		},
 		{
 			top:{
 				url:'https://www.baidu.com/',
 				img:'images/ca.png',
 				name:'小米净水器',
-				price:'1299'
+				jiaoge:'1899'
+
 			},
 			bottom:{
 				url:'https://www.baidu.com/',
@@ -553,7 +485,4 @@ var aPapa = [
 			}
 		}
 	],
-	[],
-	[],
-	[]
 ];

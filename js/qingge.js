@@ -39,7 +39,7 @@ function herdop(){
 	var aMasd = aMotok.querySelector('.header .hdert .hdert-b .hdert-sds');
 	var hiddertime = 0;
 	var lodertime = 0;
-	for (var i = 0; i < aNnan.length; i++){
+	for (var i = 0; i < aNnan.length-2; i++){
 		aNnan[i].index = i;
 		aNnan[i].onmouseenter = function(){
 			clearTimeout(hiddertime);
@@ -187,6 +187,7 @@ function hdrdov(){
 function hdrdox(){
 	var aTabItne = document.querySelectorAll('.elec .tab .tab-item');
 	var oElecProduct = document.querySelector('.elec .elec-product');
+	oLodaDate(0)
 	for (var i = 0; i < aTabItne.length; i++) {
 		aTabItne[i].index = i;
 		aTabItne[i].onmouseenter = function(){
@@ -195,31 +196,50 @@ function hdrdox(){
 			}
 			this.className = 'tab-item tab-item-active';
 			oLodaDate(this.index)
+			
 		}
 	}
 	function oLodaDate(index){
-		var data = aPapa[index];
-		var html = '<ul>';
-		for (var i = 0; i < data.length; i++) {
-			html +=      '<li class="product-item product-item-m">'
-			html += 		'<a href="'+data[i].url+'">'	
-			html += 			'<img src="'+data[i].img+'" class="product-img">'
-			html += 		'<h3 class="product-name">'+data[i].name+'</h3></a>'
-			html += 		'<p class="product-desc">'+data[i].desc+'</p>'
-			html += 		'<p class="product-price">'
-			html += 			'<strong>'+data[i].price+'</strong><span>&nbsp;元</span>'
-			html += 		'</p>'
+		var data = aCba[index];
+		var html = '';
+		for (var i = 0; i < data.length-1; i++) {
+			html +=	'<li class="product-item product-item-m">';
+			html +=	'	<a href="'+data[i].url+'">';
+			html +=	'		<div class="b1">'+data[i].b1+'</div>';
+			html +=	'		<img src="'+data[i].img+'" class="product-img">';
+			html +=	'		<h3 class="product-name">'+data[i].name+'</h3></a>';
+			html += '		<p class="product-desc">'+data[i].desc+'</p>';
+			html +=	'		<p class="product-price">';
+			html +=	'				<strong>'+data[i].price+'</strong><span>&nbsp;元</span>';
+			html +=	'		</p>';
 			if (data[i].view) {
-			html += 		'<div class="view">'
-			html += 		'<p class="view-oo">'+data.view.hool+'</p>'		
-			html += 		'<p class="view-pp">'
-			html += 			'来自于<span>'+data.view.view.hook+'</span>的评价'
-			html += 		'</p>'
-			html += 		'</div>'
-			}
-			html += 	'</li>'
+				html +=	'			<div class="view">';
+				html +=	'				<p class="view-oo">';
+				html +=	'					'+data[i].view.viewoo+'</p>';
+				html +=	'					<p class="view-pp">';
+				html +=	'					来自于<span>'+data[i].view.viewpp+'</span>的评价';
+				html +=	'				</p>';
+				html +=	'			</div>';
+				}
+				html +=	'</li>';
+
+
+			var lastData = data[data.length-1];
+			html +=	' 	<li  class="product-item-l product-item-m">';
+			html +=	'			<a href="'+lastData.top.url+'">';
+			html +=	'					 <img src="'+lastData.top.img+'">';
+			html +=	'				</a>';
+			html +=	'				'+lastData.top.name+'';
+			html +=	'				<p>'+lastData.top.jiage+'</p>';
+			html +=	'		</li>';
+			html +=	'	<li  class="product-item-o product-item-m">';
+			html +=	'			  <a href="'+lastData.bottom.url+'">';
+			html +=	'				'+lastData.bottom.txt+'';
+			html +=	'					<p'+lastData.bottom.tag+'</p>';
+			html +=	'	<i class="iconfont">'+lastData.bottom.icon+'</i>';
+			html +=	'				</a>';
+			html +=	' 	</li>';
+			oElecProduct.innerHTML = html;
 		}
-		html += '</ul>';
-		oElecProduct.innerHTML = html;
 	}
 }
