@@ -53,27 +53,41 @@
 .top .inf a:hover{
 	color: #fff;
 }
-.header{
-	margin-top: 22px;
-	height: 55px;
-}
 .header .logo{
+	position: relative;
 	float: left;
 	width: 55px;
 	height: 55px;
 	background: #ff6700; 
-	padding-top: 3px;
 	box-sizing: border-box;
 }
+.header .logo{
+	margin-top: 20px;
+}
 .header .logo img{
+	position: absolute;
+	left: 0;
+	top: 0;
 	width: 55px;
 	height: 55px;
+	transition: all .5s;
+}
+.header .logo .logo-home{
+	transform: translateX(-60px);		
+	/*transform: translateX(-60px);*/
+}
+.logo:hover .logo-logo{		
+	transform: translateX(60px);
+}
+.logo:hover .logo-home{
+	transform: translateX(0px);
 }
 .header .shop{
 	float: left;
 	width: 700px;
 	height: 55px;
 	margin-left: 50px;
+	margin-top: 20px;
 }
 .header .shop-ul{
 	margin-left: 30px;

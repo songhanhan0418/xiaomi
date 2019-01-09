@@ -20,9 +20,9 @@ function herder(){
 			oCartlink.style.color = '#ff6700';
 			// oCartb.style.height = '111px;'
 			// console.log(oCartb);
-			oLoader.style.display = 'block'
+			// oLoader.style.display = 'block'
 			animate(oCartb,{height:90},true,function(){
-				oLoader.style.display = 'none';
+				// oLoader.style.display = 'none';
 				oBosscart.style.display = 'block';
 			});
 		}
@@ -222,6 +222,7 @@ function hdrdox(){
 				html +=	'			</div>';
 				}
 				html +=	'</li>';
+			}	
 
 
 			var lastData = data[data.length-1];
@@ -229,17 +230,17 @@ function hdrdox(){
 			html +=	'			<a href="'+lastData.top.url+'">';
 			html +=	'					 <img src="'+lastData.top.img+'">';
 			html +=	'				</a>';
-			html +=	'				'+lastData.top.name+'';
+			html +=	'				<p>'+lastData.top.name+'</P>';
 			html +=	'				<p>'+lastData.top.jiage+'</p>';
 			html +=	'		</li>';
 			html +=	'	<li  class="product-item-o product-item-m">';
 			html +=	'			  <a href="'+lastData.bottom.url+'">';
-			html +=	'				'+lastData.bottom.txt+'';
+			html +=	'				<p>'+lastData.bottom.txt+'</p>';
 			html +=	'					<p'+lastData.bottom.tag+'</p>';
 			html +=	'	<i class="iconfont">'+lastData.bottom.icon+'</i>';
 			html +=	'				</a>';
 			html +=	' 	</li>';
+			
 			oElecProduct.innerHTML = html;
 		}
 	}
-}

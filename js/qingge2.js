@@ -470,6 +470,66 @@ var aCba = [
 			},
 		},
 		{
+			url:'https://www.baidu.com/',
+			b1:'减600元',
+			img:'images/p1.jpg',
+			name:'小米MIX 2 8GB+128GB 黑色',
+			desc:'UNiboy 全陶瓷',
+			price:'3699',
+			view:{
+				viewoo:'我不是来评价的我是来拉仇恨哈哈哈哈哈哈哈',
+				viewpp:'清欢'
+			},
+		},
+		{
+			url:'https://www.baidu.com/',
+			b1:'减600元',
+			img:'images/p1.jpg',
+			name:'小米MIX 2 8GB+128GB 黑色',
+			desc:'UNiboy 全陶瓷',
+			price:'3699',
+			view:{
+				viewoo:'我不是来评价的我是来拉仇恨哈哈哈哈哈哈哈',
+				viewpp:'清欢'
+			},
+		},
+		{
+			url:'https://www.baidu.com/',
+			b1:'减600元',
+			img:'images/p1.jpg',
+			name:'小米MIX 2 8GB+128GB 黑色',
+			desc:'UNiboy 全陶瓷',
+			price:'3699',
+			view:{
+				viewoo:'我不是来评价的我是来拉仇恨哈哈哈哈哈哈哈',
+				viewpp:'清欢'
+			},
+		},
+		{
+			url:'https://www.baidu.com/',
+			b1:'减600元',
+			img:'images/p1.jpg',
+			name:'小米MIX 2 8GB+128GB 黑色',
+			desc:'UNiboy 全陶瓷',
+			price:'3699',
+			view:{
+				viewoo:'我不是来评价的我是来拉仇恨哈哈哈哈哈哈哈',
+				viewpp:'清欢'
+			},
+		},
+		{
+			url:'https://www.baidu.com/',
+			b1:'减600元',
+			img:'images/p1.jpg',
+			name:'小米MIX 2 8GB+128GB 黑色',
+			desc:'UNiboy 全陶瓷',
+			price:'3699',
+			view:{
+				viewoo:'我不是来评价的我是来拉仇恨哈哈哈哈哈哈哈',
+				viewpp:'清欢'
+			},
+		},
+		{
 			top:{
 				url:'https://www.baidu.com/',
 				img:'images/ca.png',
