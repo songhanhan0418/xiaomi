@@ -34,18 +34,28 @@ function herdol(){
 //风琴js效果
 function abc(){
 	var oDko = document.querySelector('.dd-kk-oo');
-	var oDkd = document.querySelectorAll('.dd-kk-bb');
+	// var oDkd = document.querySelectorAll('.dd-kk-bb');
 	// var oImg = oDkd.getElementsByTagName('img')[0];
+	var oDkd = oDko.children;
 	console.log(oDkd)
 	for(var i = 0;i<oDkd.length;i++){
-		oDkd[i].onmouseenter = function(){
-			for(var j = 0;j<oDkd.length;j++){
-				console.log()
-				oDkd[j].style.width = 249.2 + 'px';
-				oDkd[j].children[0].src = 'url(img/jws'+i+'.png)';
+			(function(j){
+			window.onload = function(){
+				for(var i = 0;i<oDkd.length;i++){
+						oDkd[i].className = 'dd-kk-bb';
+						oDkd[i].style.backgroundImage = 'url(imgfgp/asdfg00'+i+'.jpg)'
+					}
+				oDkd[0].style.backgroundImage = 'url(imgfgp/qwerty1'+0+'0.jpg)'
+				oDkd[0].className = 'dd-kk-bb1';
 			}
-			this.style.width = 414 + 'px';
-			this.src = 'url(img/qingge'+i+'.png)';
-		}
+				oDkd[j].onmouseover = function(){
+					for(var i = 0;i<oDkd.length;i++){
+						oDkd[i].className = 'dd-kk-bb';
+						oDkd[i].style.backgroundImage = 'url(imgfgp/asdfg00'+i+'.jpg)'
+					}
+					this.style.backgroundImage = 'url(imgfgp/qwerty1'+j+'0.jpg)'
+					this.className = 'dd-kk-bb1';
+				}
+		}(i));
 	}
 }
