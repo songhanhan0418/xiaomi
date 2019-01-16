@@ -41,10 +41,16 @@
 					<a href="#">Select Region</a><span class="sep"></span>
 				</div>
 			</div>
-			<div class="cart">
-				<a class="cart-a" href="#">
-					<i class="iconfont">&#xe60c;</i>购物车(<span class="cart-a-span">0</span>)
-				</a>
+			<div class="cart-box">
+				<div class="cart">
+					<a class="cart-a" href="#">
+						<i class="iconfont">&#xe60c;</i>购物车(<span class="cart-a-span">0</span>)
+					</a>
+				</div>
+				<div class="cart-content">
+					<div class="loader"></div>
+					<span class="cart-empty">购物车中还没有商品，赶紧选购吧</span>
+				</div>
 			</div>
 			<div class="inf">
 				<a href="#">登录<span class="inf-a-span">|</span></a>
@@ -94,34 +100,102 @@
 				</ul>
 			</div>
 		</div>
+		<div class="header-content">
+			<!-- <div class="container">
+				<ul>
+					<li>
+						<div class="img-box">
+							<a href="#">
+								<img src="images/mix3.png" alt="">
+							</a>
+						</div>
+						<a class="product-name" href="#">小米MIX3</a>
+						<p class="product-price">3299元起</p>
+						<span class="product-tag">新品</span>
+					</li>
+					<li>
+						<div class="img-box">
+							<a href="#">
+								<img src="images/mix3.png" alt="">
+							</a>
+						</div>
+						<a class="product-name" href="#">小米8 青春版</a>
+						<p class="product-price">1399元起</p>
+					</li>
+					<li>
+						<div class="img-box">
+							<a href="#">
+								<img src="images/mix3.png" alt="">
+							</a>
+						</div>
+						<a class="product-name" href="#">小米MIX3</a>
+						<p class="product-price">3299元起</p>
+						<span class="product-tag">新品</span>
+					</li>
+					<li>
+						<div class="img-box">
+							<a href="#">
+								<img src="images/mix3.png" alt="">
+							</a>
+						</div>
+						<a class="product-name" href="#">小米8 青春版</a>
+						<p class="product-price">1399元起</p>
+					</li>
+					<li>
+						<div class="img-box">
+							<a href="#">
+								<img src="images/mix3.png" alt="">
+							</a>
+						</div>
+						<a class="product-name" href="#">小米MIX3</a>
+						<p class="product-price">3299元起</p>
+						<span class="product-tag">新品</span>
+					</li>
+					<li>
+						<div class="img-box">
+							<a href="#">
+								<img src="images/mix3.png" alt="">
+							</a>
+						</div>
+						<a class="product-name" href="#">小米8 青春版</a>
+						<p class="product-price">1399元起</p>
+					</li>
+				</ul>
+			</div> -->
+		</div>
 	</header>
 	<section class="home">
 		<div class="container">
 			<div class="banner">
-				<div class="banner-ad">
-					<ul class="banner-ad-ul">
-						<li class="banner-ad-ul-li"><a href="#">手机 电话卡</a><i class="iconfont">&#xe623;</i></li>
-						<li class="banner-ad-ul-li"><a href="#">手机 电话卡</a><i class="iconfont">&#xe623;</i></li>
-						<li class="banner-ad-ul-li"><a href="#">手机 电话卡</a><i class="iconfont">&#xe623;</i></li>
-						<li class="banner-ad-ul-li"><a href="#">手机 电话卡</a><i class="iconfont">&#xe623;</i></li>
-						<li class="banner-ad-ul-li"><a href="#">手机 电话卡</a><i class="iconfont">&#xe623;</i></li>
-						<li class="banner-ad-ul-li"><a href="#">手机 电话卡</a><i class="iconfont">&#xe623;</i></li>
-						<li class="banner-ad-ul-li"><a href="#">手机 电话卡</a><i class="iconfont">&#xe623;</i></li>
-						<li class="banner-ad-ul-li"><a href="#">手机 电话卡</a><i class="iconfont">&#xe623;</i></li>
-						<li class="banner-ad-ul-li"><a href="#">手机 电话卡</a><i class="iconfont">&#xe623;</i></li>
-						<li class="banner-ad-ul-li"><a href="#">手机 电话卡</a><i class="iconfont">&#xe623;</i></li>
-					</ul>
-					<a class="banner-ad-a" href="#"><img src="images/b1.jpg" alt=""></a>
-					<a class="banner-ad-a" href="#"><img src="images/b2.jpg" alt=""></a>
-					<a class="banner-ad-a" href="#"><img src="images/b3.jpg" alt=""></a>
+				<div class="banner-ad" id="carousel">
+					<div class="banner-box">
+						<ul class="banner-ad-ul">
+							<li class="banner-ad-ul-li"><a href="#">手机 电话卡</a><i class="iconfont">&#xe623;</i></li>
+							<li class="banner-ad-ul-li"><a href="#">手机 电话卡</a><i class="iconfont">&#xe623;</i></li>
+							<li class="banner-ad-ul-li"><a href="#">手机 电话卡</a><i class="iconfont">&#xe623;</i></li>
+							<li class="banner-ad-ul-li"><a href="#">手机 电话卡</a><i class="iconfont">&#xe623;</i></li>
+							<li class="banner-ad-ul-li"><a href="#">手机 电话卡</a><i class="iconfont">&#xe623;</i></li>
+							<li class="banner-ad-ul-li"><a href="#">手机 电话卡</a><i class="iconfont">&#xe623;</i></li>
+							<li class="banner-ad-ul-li"><a href="#">手机 电话卡</a><i class="iconfont">&#xe623;</i></li>
+							<li class="banner-ad-ul-li"><a href="#">手机 电话卡</a><i class="iconfont">&#xe623;</i></li>
+							<li class="banner-ad-ul-li"><a href="#">手机 电话卡</a><i class="iconfont">&#xe623;</i></li>
+							<li class="banner-ad-ul-li"><a href="#">手机 电话卡</a><i class="iconfont">&#xe623;</i></li>
+						</ul>
+						<div class="banner-content">
+						</div>
+					</div>
+					<!-- <div class="carousel" id="carousel"></div> -->
+						<!-- <a class="banner-ad-a" href="#"><img src="images/b1.jpg" alt=""></a>
+						<a class="banner-ad-a" href="#"><img src="images/b2.jpg" alt=""></a>
+						<a class="banner-ad-a" href="#"><img src="images/b3.jpg" alt=""></a> -->
 				</div>
-				<span class="banner-span-left banner-span"><i class="iconfont">&#xe627;</i></span>
+				<!-- <span class="banner-span-left banner-span"><i class="iconfont">&#xe627;</i></span>
 				<span class="banner-span-right banner-span"><i class="iconfont">&#xe622;</i></span>
 				<ul class="banner-point">
 					<li class="banner-point-li"></li>
 					<li class="banner-point-li"></li>
 					<li class="banner-point-li"></li>
-				</ul>
+				</ul> -->
 			</div>
 			<div class="box">
 				<ul class="box-ul">
@@ -158,15 +232,16 @@
 					<img src="images/flash.png" alt="">
 					<p class="flash-time-p2">距离开始还有</p>
 					<div class="flash-timing">
-						<span class="flash-time-span">02</span>
+						<span class="flash-time-span"></span>
 						<span class="flash-time-span0">:</span>
-						<span class="flash-time-span">02</span>
+						<span class="flash-time-span"></span>
 						<span class="flash-time-span0">:</span>
-						<span class="flash-time-span">02</span>
+						<span class="flash-time-span"></span>
 					</div>
 				</div>
 				<div class="flash-ad">
-					<div class="ad-item-b ad-item">
+					<ul class="product-list">
+						<li class="ad-item-b ad-item">
 						<img src="images/p1.jpg" alt="">
 						<p class="item-name">小米MIX 2 8GB+128GB 黑色aaaaaaaaaaaa</p>
 						<p class="item-desc">Unibody 全陶瓷</p>
@@ -174,9 +249,9 @@
 							<strong class="item-pr-now">3699<span>元</span></strong>
 							<del class="item-pr-old">4699元</del>
 						</p>
-						<div class="item-black"></div>
-					</div>
-					<div class="ad-item-b ad-item">
+						<div class="item-black"></div>							
+						</li>
+						<li class="ad-item-b ad-item">
 						<img src="images/p1.jpg" alt="">
 						<p class="item-name">小米MIX 2 8GB+128GB 黑色aaaaaaaaaaaa</p>
 						<p class="item-desc">Unibody 全陶瓷</p>
@@ -184,9 +259,9 @@
 							<strong class="item-pr-now">3699<span>元</span></strong>
 							<del class="item-pr-old">4699元</del>
 						</p>
-						<div class="item-black"></div>
-					</div>
-					<div class="ad-item-b ad-item">
+						<div class="item-black"></div>							
+						</li>
+						<li class="ad-item-b ad-item">
 						<img src="images/p1.jpg" alt="">
 						<p class="item-name">小米MIX 2 8GB+128GB 黑色aaaaaaaaaaaa</p>
 						<p class="item-desc">Unibody 全陶瓷</p>
@@ -194,9 +269,9 @@
 							<strong class="item-pr-now">3699<span>元</span></strong>
 							<del class="item-pr-old">4699元</del>
 						</p>
-						<div class="item-black"></div>
-					</div>
-					<div class="ad-item-b ad-item">
+						<div class="item-black"></div>							
+						</li>
+						<li class="ad-item-b ad-item">
 						<img src="images/p1.jpg" alt="">
 						<p class="item-name">小米MIX 2 8GB+128GB 黑色aaaaaaaaaaaa</p>
 						<p class="item-desc">Unibody 全陶瓷</p>
@@ -204,8 +279,49 @@
 							<strong class="item-pr-now">3699<span>元</span></strong>
 							<del class="item-pr-old">4699元</del>
 						</p>
-						<div class="item-black"></div>
-					</div>
+						<div class="item-black"></div>							
+						</li>
+						<li class="ad-item-b ad-item">
+						<img src="images/p1.jpg" alt="">
+						<p class="item-name">小米8 8GB+128GB 黑色aaaaaaaaaaaa</p>
+						<p class="item-desc">Unibody 全陶瓷</p>
+						<p class="item-pr">
+							<strong class="item-pr-now">3699<span>元</span></strong>
+							<del class="item-pr-old">4699元</del>
+						</p>
+						<div class="item-black"></div>							
+						</li>
+						<li class="ad-item-b ad-item">
+						<img src="images/p1.jpg" alt="">
+						<p class="item-name">小米8 8GB+128GB 黑色aaaaaaaaaaaa</p>
+						<p class="item-desc">Unibody 全陶瓷</p>
+						<p class="item-pr">
+							<strong class="item-pr-now">3699<span>元</span></strong>
+							<del class="item-pr-old">4699元</del>
+						</p>
+						<div class="item-black"></div>							
+						</li>
+						<li class="ad-item-b ad-item">
+						<img src="images/p1.jpg" alt="">
+						<p class="item-name">小米8 8GB+128GB 黑色aaaaaaaaaaaa</p>
+						<p class="item-desc">Unibody 全陶瓷</p>
+						<p class="item-pr">
+							<strong class="item-pr-now">3699<span>元</span></strong>
+							<del class="item-pr-old">4699元</del>
+						</p>
+						<div class="item-black"></div>							
+						</li>
+						<li class="ad-item-b ad-item">
+						<img src="images/p1.jpg" alt="">
+						<p class="item-name">小米8 8GB+128GB 黑色aaaaaaaaaaaa</p>
+						<p class="item-desc">Unibody 全陶瓷</p>
+						<p class="item-pr">
+							<strong class="item-pr-now">3699<span>元</span></strong>
+							<del class="item-pr-old">4699元</del>
+						</p>
+						<div class="item-black"></div>							
+						</li>
+					</ul>
 				</div>
 			</div>
 			<div class="ad"><a href="#"><img src="images/long_ad1.jpg" alt=""></a></div>
@@ -322,98 +438,105 @@
 					<img src="images/e1.png" alt="">
 					<img src="images/e1.png" alt="">
 				</div>
-				<div class="main-item clearfix">
-					<div class="ad-item-m ad-item nobd">
-						<img src="images/p1.jpg" alt="">
-						<p class="item-name">小米MIX 2 8GB+128GB 黑色aaaaaaaaaaaa</p>
-						<p class="item-desc">Unibody 全陶瓷</p>
-						<p class="item-pr">
-							<strong class="item-pr-now">3699<span>元</span></strong>
-							<del class="item-pr-old">4699元</del>
-						</p>
-						<div class="item-black"></div>
-						<span class="sell-off sell">减300元</span>
-						<div class="repo">
-							<p class="repo-info">11111132134353456564553dsadhucjkbjhudhgasudghusiad4</p>
-							<p class="repo-from">来自于<span class="repo-authr">4561245</span>的评价</p>
-						</div>
-					</div>
-					<div class="ad-item-m ad-item nobd">
-						<img src="images/p1.jpg" alt="">
-						<p class="item-name">小米MIX 2 8GB+128GB 黑色aaaaaaaaaaaa</p>
-						<p class="item-desc">Unibody 全陶瓷</p>
-						<p class="item-pr">
-							<strong class="item-pr-now">3699<span>元</span></strong>
-							<del class="item-pr-old">4699元</del>
-						</p>
-						<div class="item-black"></div>
-						<span class="sell-new sell">新品</span>
-						<div class="repo">
-							<p class="repo-info">11111132134353456564553dsadhucjkbjhudhgasudghusiad4</p>
-							<p class="repo-from">来自于<span class="repo-authr">4561245</span>的评价</p>
-						</div>
-					</div>
-					<div class="ad-item-m ad-item nobd">
-						<img src="images/p1.jpg" alt="">
-						<p class="item-name">小米MIX 2 8GB+128GB 黑色aaaaaaaaaaaa</p>
-						<p class="item-desc">Unibody 全陶瓷</p>
-						<p class="item-pr">
-							<strong class="item-pr-now">3699<span>元</span></strong>
-							<del class="item-pr-old">4699元</del>
-						</p>
-						<div class="item-black"></div>
-					</div>
-					<div class="ad-item-m ad-item nobd">
-						<img src="images/p1.jpg" alt="">
-						<p class="item-name">小米MIX 2 8GB+128GB 黑色aaaaaaaaaaaa</p>
-						<p class="item-desc">Unibody 全陶瓷</p>
-						<p class="item-pr">
-							<strong class="item-pr-now">3699<span>元</span></strong>
-							<del class="item-pr-old">4699元</del>
-						</p>
-						<div class="item-black"></div>
-					</div>
-					<div class="ad-item-m ad-item nobd">
-						<img src="images/p1.jpg" alt="">
-						<p class="item-name">小米MIX 2 8GB+128GB 黑色aaaaaaaaaaaa</p>
-						<p class="item-desc">Unibody 全陶瓷</p>
-						<p class="item-pr">
-							<strong class="item-pr-now">3699<span>元</span></strong>
-							<del class="item-pr-old">4699元</del>
-						</p>
-						<div class="item-black"></div>
-					</div>
-					<div class="ad-item-m ad-item nobd">
-						<img src="images/p1.jpg" alt="">
-						<p class="item-name">小米MIX 2 8GB+128GB 黑色aaaaaaaaaaaa</p>
-						<p class="item-desc">Unibody 全陶瓷</p>
-						<p class="item-pr">
-							<strong class="item-pr-now">3699<span>元</span></strong>
-							<del class="item-pr-old">4699元</del>
-						</p>
-						<div class="item-black"></div>
-					</div>
-					<div class="ad-item-m ad-item nobd">
-						<img src="images/p1.jpg" alt="">
-						<p class="item-name">小米MIX 2 8GB+128GB 黑色aaaaaaaaaaaa</p>
-						<p class="item-desc">Unibody 全陶瓷</p>
-						<p class="item-pr">
-							<strong class="item-pr-now">3699<span>元</span></strong>
-							<del class="item-pr-old">4699元</del>
-						</p>
-						<div class="item-black"></div>
-					</div>
-					<div class="ad-item-m ad-item ad-item-s nobd">
-						<p class="ad-item-s-name">小白摄像机</p>
-						<p class="ad-item-s-pr">369元</p>
-						<img src="images/ca.png" alt="">
-					</div>
-					<div class="ad-item-m ad-item ad-item-s nobd">
-						<p class="ad-item-s-name ad-item-s-more">浏览更多</p>
-						<p class="ad-item-s-pr ad-item-s-hot">热门</p>
-						<i class="iconfont">&#xe615;</i>
-					</div>
+				<div class="main-list">
+					<!-- <ul class="main-item clearfix">
+											<li class="ad-item-m ad-item nobd">
+												<a href="#">
+													<img src="images/p1.jpg" alt="">
+												</a>
+												<p class="item-name">小米MIX 2 8GB+128GB 黑色aaaaaaaaaaaa</p>
+												<p class="item-desc">Unibody 全陶瓷</p>
+												<p class="item-pr">
+													<strong class="item-pr-now">3699<span>元</span></strong>
+													<del class="item-pr-old">4699元</del>
+												</p>
+												<div class="item-black"></div>
+												<span class="sell-off sell">减300元</span>
+												<div class="repo">
+													<p class="repo-info">11111132134353456564553dsadhucjkbjhudhgasudghusiad4</p>
+													<p class="repo-from">来自于<span class="repo-authr">4561245</span>的评价</p>
+												</div>
+											</li>
+											<li class="ad-item-m ad-item nobd">
+												<img src="images/p1.jpg" alt="">
+												<p class="item-name">小米MIX 2 8GB+128GB 黑色aaaaaaaaaaaa</p>
+												<p class="item-desc">Unibody 全陶瓷</p>
+												<p class="item-pr">
+													<strong class="item-pr-now">3699<span>元</span></strong>
+													<del class="item-pr-old">4699元</del>
+												</p>
+												<div class="item-black"></div>
+												<span class="sell-new sell">新品</span>
+												<div class="repo">
+													<p class="repo-info">11111132134353456564553dsadhucjkbjhudhgasudghusiad4</p>
+													<p class="repo-from">来自于<span class="repo-authr">4561245</span>的评价</p>
+												</div>
+											</li>
+											<li class="ad-item-m ad-item nobd">
+												<img src="images/p1.jpg" alt="">
+												<p class="item-name">小米MIX 2 8GB+128GB 黑色aaaaaaaaaaaa</p>
+												<p class="item-desc">Unibody 全陶瓷</p>
+												<p class="item-pr">
+													<strong class="item-pr-now">3699<span>元</span></strong>
+													<del class="item-pr-old">4699元</del>
+												</p>
+												<div class="item-black"></div>
+											</li>
+											<li class="ad-item-m ad-item nobd">
+												<img src="images/p1.jpg" alt="">
+												<p class="item-name">小米MIX 2 8GB+128GB 黑色aaaaaaaaaaaa</p>
+												<p class="item-desc">Unibody 全陶瓷</p>
+												<p class="item-pr">
+													<strong class="item-pr-now">3699<span>元</span></strong>
+													<del class="item-pr-old">4699元</del>
+												</p>
+												<div class="item-black"></div>
+											</li>
+											<li class="ad-item-m ad-item nobd">
+												<img src="images/p1.jpg" alt="">
+												<p class="item-name">小米MIX 2 8GB+128GB 黑色aaaaaaaaaaaa</p>
+												<p class="item-desc">Unibody 全陶瓷</p>
+												<p class="item-pr">
+													<strong class="item-pr-now">3699<span>元</span></strong>
+													<del class="item-pr-old">4699元</del>
+												</p>
+												<div class="item-black"></div>
+											</li>
+											<li class="ad-item-m ad-item nobd">
+												<img src="images/p1.jpg" alt="">
+												<p class="item-name">小米MIX 2 8GB+128GB 黑色aaaaaaaaaaaa</p>
+												<p class="item-desc">Unibody 全陶瓷</p>
+												<p class="item-pr">
+													<strong class="item-pr-now">3699<span>元</span></strong>
+													<del class="item-pr-old">4699元</del>
+												</p>
+												<div class="item-black"></div>
+											</li>
+											<li class="ad-item-m ad-item nobd">
+												<img src="images/p1.jpg" alt="">
+												<p class="item-name">小米MIX 2 8GB+128GB 黑色aaaaaaaaaaaa</p>
+												<p class="item-desc">Unibody 全陶瓷</p>
+												<p class="item-pr">
+													<strong class="item-pr-now">3699<span>元</span></strong>
+													<del class="item-pr-old">4699元</del>
+												</p>
+												<div class="item-black"></div>
+											</li>
+											<li class="ad-item-m ad-item ad-item-s nobd">
+												<a href="#" class="ad-item-s-name">小白摄像机</a>
+												<p class="ad-item-s-pr">369元</p>
+												<a href="#">
+													<img src="images/ca.png" alt="">
+												</a>
+											</li>
+											<li class="ad-item-m ad-item ad-item-s nobd">
+												<a href="#" class="ad-item-s-name ad-item-s-more">浏览更多</a>
+												<a href="#" class="ad-item-s-pr ad-item-s-hot">热门</a>
+												<i class="iconfont">&#xe615;</i>
+											</li>
+										</ul> -->					
 				</div>
+
 				<div class="ad"><a href="#"><img src="images/long_ad1.jpg" alt=""></a></div>
 			</div>
 			<div class="video">
@@ -590,4 +713,7 @@
 <!-- 底部链接结束-->
 
 </body>
+<script src="js/datashh.js"></script>
+<script src="js/animateshh.js"></script>
+<script src="js/mishh.js"></script>
 </html>

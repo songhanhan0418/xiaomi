@@ -68,8 +68,8 @@
 	font-size: 16px;
 	cursor: pointer;
 }
-.hd .move.tab .tab-item-active,
-.hd .move.tab .tab-item:hover{
+/*.hd .move.tab .tab-item:hover,*/
+.hd .move.tab .tab-item-active{
 	color: #ff6700;
 	border-bottom: 2px solid #ff6700;
 }
@@ -179,6 +179,7 @@
 	color: #fff;
 }
 .cart{
+	position: relative;
 	width: 120px;
 	height: 40px;
 	float: right;
@@ -190,12 +191,42 @@
 .cart-a i{
 	font-size: 18px;
 }
-.cart:hover{
+.cart .cart-a{
+	position: relative;
+	z-index: 145;
+}
+/*.cart:hover{
 	background: #fff;
 }
 .cart:hover .cart-a{
 	color: #ff6700;
+}*/
+.cart .cart-b{
+	position: absolute;
+	top: 40px;
+	right: 0;
+	width: 300px;
+	height: 0px;
+	/*height: 111px;*/
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 0px 5px 11px rgba(0,0,0,0.5);
+	z-index: 126;
+	overflow: hidden;;
 }
+.cart .cart-b .boss-cart{
+	margin-top: 30px;
+	font-size: 12px;
+	font-weight: 300;
+	display: none;
+}
+.cart .cart-b .loder{
+	margin-top: 40px;
+	display: none;
+}
+
+
+
 
 .inf{
 	width: 176px;
@@ -211,9 +242,11 @@
 .top .inf a:hover{
 	color: #fff;
 }
+
 .header{
 	margin-top: 22px;
 	height: 110px;
+	position: relative;
 }
 .header .logo{
 	float: left;
@@ -251,12 +284,72 @@
 .header .shop-ul-li a:hover{
 	color:#ff6700;
 }
+.header .hdert .hdert-b{
+	position: absolute;
+	top: 70px;
+	left: 0px;
+	/*height: 180px;*/
+	height: 0px;
+	width: 100%;
+	background-color: #fff;
+	z-index: 998;
+	box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
+	/*border-top: 1px solid #ccc;*/
+	overflow: hidden;
+	/*overflow: visible;*/
+}
+.header .hdert .hdert-b li{
+	position: relative;
+	float: left;
+	width: 200px;
+	height: 180px;
+	text-align: center;
+}
+.header .hdert .hdert-b li .img-box{
+	width: 100%;
+	height: 100px;
+	padding-left: 210px;
+	margin-top: 30px;
+	border-right: 1px solid #ccc;
+}
+.header .hdert .hdert-b li .img-box img{
+	width: 100px;
+	height: 100%;
+}
+.header .hdert .hdert-b .box-name{
+	font-size: 12px;
+}
+.header .hdert .hdert-b .box-jiage{
+	font-size: 12px;
+	color: #ff6700;
+}
+.header .hdert .hdert-b .loder{
+	margin-top: 40px;
+}
+.header .hdert .hdert-b .tag{
+	position: absolute;
+	top: 0;
+	left: 160%;
+	width: 50px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	margin-left: -35px;
+	margin-top: -1px;
+	font-size: 12px;
+	color: #ff6700;
+	border: 1px solid #ff6700;
+}
 .header .search{
 	position: relative;
 	float: right;
 	width: 300px;
 	height: 55px;
 }
+
+
+
+
 .header .search input{
 	padding-left: 10px;
 	outline: none;
@@ -306,7 +399,7 @@
 	border: 1px solid #ff6700;
 	box-sizing: border-box;
 	background: #fff;
-	z-index: 2;
+	z-index: 99999;
 }
 .search-list .search-list-li{
 	height: 30px;
@@ -339,6 +432,7 @@
 }
 .search-list .search-list-li:hover{
 	background: #eee;
+	z-index: 10000;
 }
 .header .search .search-input:focus{
 	border:1px solid #ff6700;
@@ -354,7 +448,7 @@
 	border-top: none;
 }
 .home{
-	margin-top: -20px;
+	margin-top: -40px;
 	height: 1270px;
 	background: #fff;
 }
@@ -374,7 +468,10 @@
 	box-sizing: border-box;
 	background: rgba(0,0,0,0.5);
 }
-.home .banner .cate .cate-by:hover{
+/*.home .banner .cate .cate-by:hover{
+	background: #ff6700;
+}*/
+.home .banner .cate .cate-by.active{
 	background: #ff6700;
 }
 .home .banner .cate .cate-by{
@@ -388,7 +485,45 @@
 .home .banner .cate .cate-by i{
 	float: right;
 }
-.home .banner .carousel{
+.home .banner .cart-box{
+/*	position: relative;
+	height: 100%;*/
+}
+.home .banner .cate-content{
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 234px;
+	min-width: 500px;
+	height: 100%;
+	background-color: #fff;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.25);
+	z-index: 8888;
+	padding: 10px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.home .banner .cate-content li{
+	float: left;
+	width: 120px;
+	height: 80px;
+}
+.home .banner .cate-content li img{
+	width: 60px;
+	height: 60px;
+	vertical-align: middle;
+}
+.home .banner .cate-content li a{
+	display: inline-block;
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+}
+.home .banner .cate-content li a:hover{
+	color: #ff6700;
+}
+
+/*.home .banner .carousel{
 	height: 100%;
     position: relative;
 }
@@ -443,7 +578,49 @@
 .home .banner .carousel .carousel-btn li:hover{
 	border-color: #979590;
 	background: #fcf9f0;
+}*/
+
+.home .banner .carousel .leftArrow,.home .banner .carousel .rightArrow{
+	position: absolute;
+	top:50%;
+	width: 30px;
+	height: 60px;
+	line-height: 60px;
+	margin-top: -30px;
+	background-color: rgba(0,0,0,0.2);
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+	cursor: pointer;
 }
+.home .banner .carousel .leftArrow{
+	left: 234px;
+}
+.home .banner .carousel .rightArrow{
+	right: 0;
+}
+.home .banner .carousel .bottomBtn{
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+.home .banner .carousel .bottomBtn li{
+	float: left;
+	width: 6px;
+	height: 6px;
+	margin-left: 10px;
+	border: 3px solid #b5b3ad;
+	background: #96938a;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.home .banner .carousel .bottomBtn li.active{
+	background-color: rgba(0,0,0,0.5);
+}
+
+
+
+
 .home .hot{
 	height: 170px;
 	margin-bottom: 25px;
@@ -506,6 +683,7 @@
 .hd{
 	height: 60px;
 	line-height: 60px;
+	cursor: pointer;
 }
 .hd .title{
 	width: 234px;
@@ -548,6 +726,14 @@
 	text-align: center;
 	font-size: 22px;
 }
+.flash .col2{
+	overflow: hidden;
+	cursor: pointer;
+}
+.flash .bd .product-list{
+	width: 1956px;
+	transition: all 0.3s;
+}
 .flash .product-item{
 	height: 340px;
     padding: 30px 20px 0px 20px;
@@ -561,7 +747,6 @@
 	height: 100%;
 	background: rgba(0,0,0,0.1);
 }
-
 .flash .product-item:nth-child(1){
 	border-top: 1px solid yellow;
 }
@@ -572,6 +757,18 @@
 	border-top: 1px solid pink;
 }
 .flash .product-item:nth-child(4){
+	border-top: 1px solid red;
+}
+.flash .product-item:nth-child(5){
+	border-top: 1px solid black;
+}
+.flash .product-item:nth-child(6){
+	border-top: 1px solid red;
+}
+.flash .product-item:nth-child(7){
+	border-top: 1px solid pink;
+}
+.flash .product-item:nth-child(8){
 	border-top: 1px solid red;
 }
 .ad>a>img{
@@ -639,6 +836,12 @@
 	height: 140px;
 	margin-bottom: 20px;
 }
+.col2 .elec-product{
+	float: left;
+}
+.col2 .elec-product li{
+	float: left;
+}
 .elec-product .product-item-l a{
 	position: relative;
 	top: 49px;
@@ -660,6 +863,15 @@
 .col2 .elec-product .product-item-o{
 	width: 234px;
 	height: 140px;
+}
+.box .elec .elec-product .product-item .b1{
+	width: 63px;
+	height: 20px;
+	margin-left: 88px;
+	font-weight: bold;
+	color: #fff;
+	background: red;
+
 }
 .elec-product .product-item-o a{
 	position: relative;
