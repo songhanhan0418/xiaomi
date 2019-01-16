@@ -14,16 +14,27 @@ a{
 }
 /*hd部分样式*/
 .hd{
+	position: relative;
 	height: 540px;
-	background:#242424;
 }
 .hd .nav-top{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: #242424; 
+	z-index: 333;
+}
+
+
+.hd .nav-top .bord{
 	position: relative;
 	width: 1360px;
-	height: 60px;
-	margin: 0 auto;
+	height: 55px;
+	background: #242424;
+	margin:0 auto;
 }
 .hd .nav-top img{
+	height: 55px;
 	float: left;
 	cursor: pointer;
 }
@@ -32,21 +43,20 @@ a{
 }
 .hd .nav-top a{
 	float: left;
-	line-height: 60px;
-	margin: 0 40px;
+	line-height: 50px;
+	margin: 5px 20px 0;
 	color: #fff;
-	font-size: 12px;
+	font-size: 14px;
 }
 .hd .nav-top a:hover{
 	color: #00eaff;
 }
 .hd .nav-top .last{
-	position: absolute;
-	top: 14px;
-	right:60px;
-	width: 80px;
-	height: 30px;
-	line-height: 30px;
+	float: right;
+	margin-top: 14px;
+	width: 75px;
+	height: 28px;
+	line-height: 28px;
 	text-align: center;
 	border:1px #fff solid;
 	border-radius: 15px 15px;
@@ -58,11 +68,13 @@ a{
 }
 .hd .img{
   	position: relative;
+  	top: 55px;
 	height: 480px;
 	background-repeat: no-repeat;
 /*	background: url(../img/bg.jpg);*/
 	background: #151869;
 	overflow: hidden;
+	z-index: 33;
 }
 .hd .img p{
 	text-align: center;
@@ -70,11 +82,8 @@ a{
 }
 .hd .img p:first-child{
 	margin-top: 125px;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 	font-size: 46px;
-}
-.hd .img p:lsat-child{
-	font-size: 18px;
 }
 .hd .img .pingtai{
 	width: 550px;
@@ -97,13 +106,151 @@ a{
 	background: #0087ff;
 	color: #fff;
 }
-
+.hd .acr{
+	position: relative;
+	top: -425px;
+	height: 480px;
+	background-repeat: no-repeat;
+/*	background: url(../img/bg.jpg);*/
+	background: #151869;
+	overflow: hidden;
+	z-index: 44;
+}
+.hd .acr p{
+	text-align: center;
+	color: #fff;
+}
+.hd .acr p:first-child{
+	margin-top: 125px;
+	margin-bottom: 10px;
+	padding-left: 40px;
+	letter-spacing: 40px;
+	font-size: 24px;
+} 
+.hd .acr p:nth-child(2){
+	font-size: 50px;
+}
+.hd .acr .pingtai{
+	width: 550px;
+	margin: 0 auto;
+	margin-top: 65px;
+}
+.hd .acr a{
+	display: block;
+	width: 260px;
+	margin: 0 auto;
+	margin-top: 20px;
+	background:#00eaff;
+	color: #042b44;
+	line-height: 55px;
+	text-align: center;
+	transition: 0.2s linear background,0.2s linear color;
+}
+.hd .acr a:first-child{
+	margin-right: 25px;
+}
+.hd .acr a:hover{
+	background: #0087ff;
+	color: #fff;
+}
+.hd .btns{
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	margin-left: -10px;
+	z-index: 99;
+}
+.hd .btn01{
+	float: left;
+	width: 20px;
+	border:1.5px #fff solid;
+	margin-right: 5px;
+}
+.hd .btn02{
+	float: left;
+	width: 15px;
+	border:1.5px #fff solid;
+}
+#menu{
+	width: 1360px;
+	height: 55px;
+	margin: 0 auto;
+	display: none;
+}
+#yuycd{
+	position: absolute;
+	top: 55px;
+	left: 260px;
+	display: none;
+}
+#yuycd div{
+	float: left;
+}
+#yuycd div .bianse:hover{
+	color: blue;
+}
+#yuycd div .bku{
+	border-top: 0.5px #b0b0b0 solid;
+}
+#yuycd .left{
+	background: #101010;
+	width: 200px;
+	height: 220px;
+	padding: 5px;
+}
+#yuycd .left ul li{
+	float: left;
+	list-style: none;
+}
+#yuycd .left ul li a{
+	text-decoration:none;
+	color: #eee;
+}
+#yuycd .left ul:first-child>li:last-child{
+	margin-left: 30px;
+}
+#yuycd .right{
+	width: 100px;
+	height: 220px;
+	background: #000;
+	padding: 5px;
+}
+#yuycd .right ul li{
+	float: left;
+	list-style: none;
+}
+#yuycd .right ul li a{
+	text-decoration:none;
+	color: #eee;
+}
+#txtmenu{
+	position: absolute;
+	top: 55px;
+	left: 350px;
+	width: 100px;
+	background: #222;
+	display: none;
+}
+#txtmenu ul{
+	margin: 0 auto;
+}
+#txtmenu ul li{
+	float: left;
+	list-style:none;
+}
+#txtmenu ul li a{
+	text-decoration:none;
+	color: #eee;
+}
+#txtmenu ul li a:hover{
+	color: blue;
+}
 
 
 .main .one{
 	width: 1360px;
 	margin: 0 auto;
-	height: 580px;
+	height: 540px;
         background: #fff;
         overflow: hidden;
         box-sizing: border-box;
@@ -430,12 +577,13 @@ a{
         cursor: pointer;
 }
 .bottom .back-02{
-	height: 58px;
+		height: 50px;
         background: #000;
         color: #b0b0b0;
         text-align: center;
         padding-top: 20px;
         font-size: 12px;
+        box-sizing: border-box;
 }
 .bottom .back-02 span{
 	cursor: pointer;

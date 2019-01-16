@@ -13,16 +13,66 @@
 </head>
 <body>
 	<header class="hd">
-		<nav class="nav-top clearfix">
-			<img src="img/jr-hd.jpg">
-			<a href="#">技能平台</a>
-			<a href="#">语音服务</a>
-			<a href="#">文档中心</a>
-			<a href="#">小爱论坛</a>
-			<a href="#">联系我们</a>
-			<a href="#" class="last">登录</a>
+		<nav class="nav-top clearfix" id="nav">
+            <div class="bord">
+    			<img src="img/jr-hd.jpg">
+    			<a href="#" id="mbtn">技能平台</a>
+    			<a href="#" id="yuybtn">语音服务</a>
+    			<a href="#" id="txtbtn">文档中心</a>
+    			<a href="#">小爱论坛</a>
+    			<a href="#">联系我们</a>
+    			<a href="#" class="last">登录</a> 
+                <div id="yuycd">
+                    <div class="left clearfix">
+                        <ul>
+                            <li ><a href="#">解决方案</a> </li>
+                            <li ><a href="#" class="bianse">全部</a></li>
+                        </ul>                        
+                        <ul>
+                            <li  class="bku ">
+                                <a href="#" class="bianse">智能音响</a> 
+                            </li>
+                            <li  class="bku ">
+                                <a href="#" class="bianse">智能电视</a> 
+                            </li>
+                            <li >
+                                <a href="#" class="bianse">智能车载</a> 
+                            </li>
+                            <li >
+                                <a href="#" class="bianse">智能穿戴</a> 
+                            </li>
+                            <li >
+                                <a href="#" class="bianse">智能手机</a> 
+                            </li>
+                            <li >
+                            <a href="#" class="bianse">儿童设备</a> 
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="right clearfix">
+                        <ul>
+                            <li><a href="#">开发者</a></li>
+                            <li  class="bku "><a href="#" class="bianse">控制台</a></li>
+                            <li ><a href="#" class="bianse">新手指南</a></li>
+                            <li ><a href="#" class="bianse">常见问题</a></li>
+                        </ul>
+                    </div>
+                 </div>              
+                <div id="txtmenu">
+                    <ul class="clearfixa">
+                        <li><a herf="#">资源中心</a></li>
+                        <li><a herf="#">SDK下载</a></li>
+                        <li><a herf="#">常见问题</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="menu">
+                <a href="#">首页</a>
+                <a href="#">控制台</a>
+                <a href="#">开发者中心</a>
+            </div>
 		</nav>
-		<div class="img">
+		<div class="img" id="btn-1">
 			<p>小爱开放平台 - 用语音连接世界</p>
 			<p>水滴平台正式升级为小爱开放平台</p>
 			<div class="pingtai">
@@ -30,6 +80,15 @@
 				<a href="#">语音服务平台</a>
 			</div>
 		</div>
+        <div class="acr" id="btn-2">
+            <p>小爱开放平台</p>
+            <p>开发者激励计划</p>
+            <a href="#">技能开发平台</a>
+        </div>
+        <div class="btns">
+            <div class="btn01"></div>
+            <div class="btn02"></div>
+        </div>
 	</header>
 	<section class="main">
         	<div class="one claerfix">
@@ -244,4 +303,56 @@
             </div>
         </footer>
 </body>
+<script>
+    var oMenu=document.getElementById('menu');
+    var oMbtn=document.getElementById('mbtn');
+    var oBTN1=document.getElementById('btn-1');
+    var oBTN2=document.getElementById('btn-2');
+
+   function show(ev){
+    oMenu.style.display='block';
+    ev.stopPropagation();
+   }
+   function yingcang(){
+    oMenu.style.display='none';
+   }
+   oMenu.addEventListener('mouseover',function(ev){
+        ev.stopPropagation();
+    },false);
+   oMbtn.addEventListener('mouseover',show,false);  
+   document.addEventListener('mouseover',yingcang,false);
+
+   var oYuybtn = document.getElementById('yuybtn');
+   var oYuycd = document.getElementById('yuycd');
+
+   oYuybtn.onmouseover = function(ev){
+        oYuycd.style.display='block';
+        ev.stopPropagation();
+   }
+   oYuybtn.onmouseout = function(){
+        oYuycd.style.display='none';
+   }
+   oYuycd.onmouseover = function(){
+        oYuycd.style.display='block';
+   }
+   oYuycd.onmouseout = function(){
+        oYuycd.style.display='none';
+   }
+
+   var oTxtbtn = document.getElementById('txtbtn');
+   var oTxtmenu = document.getElementById('txtmenu');
+        oTxtbtn.onmouseover = function(ev){
+        oTxtmenu.style.display='block';
+        ev.stopPropagation();
+   }
+        oTxtbtn.onmouseout = function(){
+        oTxtmenu.style.display='none';
+   }
+        oTxtmenu.onmouseover = function(){
+        oTxtmenu.style.display='block';
+   }
+        oTxtmenu.onmouseout = function(){
+        oTxtmenu.style.display='none';
+   }
+</script>
 </html>
